@@ -3,10 +3,10 @@
   "bosses",
   "buddies",
   "bugs",
-  "faces",
   "harbour",
-  "mechs",
   "meta",
-  "props"
+  "props",
+  "v3bugs",
+  "v3mechs"
  ]
 }
