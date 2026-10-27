@@ -1,0 +1,408 @@
+{
+ "group": "nibbler",
+ "image": "nibbler.png",
+ "size": {
+  "w": 970,
+  "h": 99
+ },
+ "frames": {
+  "nibbler_bite_0": {
+   "x": 540,
+   "y": 60,
+   "w": 23,
+   "h": 15,
+   "ax": 0.4348,
+   "ay": 0.8667
+  },
+  "nibbler_bite_1": {
+   "x": 582,
+   "y": 60,
+   "w": 18,
+   "h": 14,
+   "ax": 0.3333,
+   "ay": 0.8571
+  },
+  "nibbler_bite_2": {
+   "x": 446,
+   "y": 60,
+   "w": 17,
+   "h": 16,
+   "ax": 0.4706,
+   "ay": 0.875
+  },
+  "nibbler_death_0": {
+   "x": 514,
+   "y": 60,
+   "w": 25,
+   "h": 15,
+   "ax": 0.48,
+   "ay": 0.8667
+  },
+  "nibbler_death_1": {
+   "x": 601,
+   "y": 60,
+   "w": 24,
+   "h": 12,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "nibbler_death_2": {
+   "x": 367,
+   "y": 60,
+   "w": 30,
+   "h": 16,
+   "ax": 0.5,
+   "ay": 0.875
+  },
+  "nibbler_death_3": {
+   "x": 482,
+   "y": 60,
+   "w": 31,
+   "h": 15,
+   "ax": 0.5484,
+   "ay": 0.8667
+  },
+  "nibbler_elite_bite_0": {
+   "x": 801,
+   "y": 1,
+   "w": 54,
+   "h": 49,
+   "ax": 0.4259,
+   "ay": 0.8776
+  },
+  "nibbler_elite_bite_1": {
+   "x": 913,
+   "y": 1,
+   "w": 56,
+   "h": 43,
+   "ax": 0.375,
+   "ay": 0.8605
+  },
+  "nibbler_elite_bite_2": {
+   "x": 539,
+   "y": 1,
+   "w": 68,
+   "h": 49,
+   "ax": 0.5,
+   "ay": 0.8776
+  },
+  "nibbler_elite_death_0": {
+   "x": 329,
+   "y": 1,
+   "w": 69,
+   "h": 50,
+   "ax": 0.4928,
+   "ay": 0.88
+  },
+  "nibbler_elite_death_1": {
+   "x": 146,
+   "y": 60,
+   "w": 54,
+   "h": 25,
+   "ax": 0.5,
+   "ay": 1.16
+  },
+  "nibbler_elite_death_2": {
+   "x": 75,
+   "y": 60,
+   "w": 70,
+   "h": 35,
+   "ax": 0.5,
+   "ay": 0.9143
+  },
+  "nibbler_elite_death_3": {
+   "x": 1,
+   "y": 60,
+   "w": 73,
+   "h": 38,
+   "ax": 0.5616,
+   "ay": 0.8421
+  },
+  "nibbler_elite_flash_0": {
+   "x": 399,
+   "y": 1,
+   "w": 69,
+   "h": 50,
+   "ax": 0.4928,
+   "ay": 0.88
+  },
+  "nibbler_elite_flash_1": {
+   "x": 469,
+   "y": 1,
+   "w": 69,
+   "h": 50,
+   "ax": 0.4928,
+   "ay": 0.88
+  },
+  "nibbler_elite_idle_0": {
+   "x": 608,
+   "y": 1,
+   "w": 67,
+   "h": 49,
+   "ax": 0.4925,
+   "ay": 0.8776
+  },
+  "nibbler_elite_idle_1": {
+   "x": 856,
+   "y": 1,
+   "w": 56,
+   "h": 46,
+   "ax": 0.4821,
+   "ay": 0.8696
+  },
+  "nibbler_elite_scuttle_0": {
+   "x": 676,
+   "y": 1,
+   "w": 67,
+   "h": 49,
+   "ax": 0.4925,
+   "ay": 0.8776
+  },
+  "nibbler_elite_scuttle_1": {
+   "x": 274,
+   "y": 1,
+   "w": 54,
+   "h": 52,
+   "ax": 0.4815,
+   "ay": 0.8846
+  },
+  "nibbler_elite_scuttle_2": {
+   "x": 744,
+   "y": 1,
+   "w": 56,
+   "h": 49,
+   "ax": 0.4821,
+   "ay": 0.8776
+  },
+  "nibbler_elite_scuttle_3": {
+   "x": 137,
+   "y": 1,
+   "w": 68,
+   "h": 52,
+   "ax": 0.5,
+   "ay": 0.8846
+  },
+  "nibbler_elite_tell_0": {
+   "x": 206,
+   "y": 1,
+   "w": 67,
+   "h": 52,
+   "ax": 0.4925,
+   "ay": 0.8846
+  },
+  "nibbler_elite_tell_1": {
+   "x": 1,
+   "y": 1,
+   "w": 67,
+   "h": 58,
+   "ax": 0.4925,
+   "ay": 0.8966
+  },
+  "nibbler_elite_tell_2": {
+   "x": 69,
+   "y": 1,
+   "w": 67,
+   "h": 58,
+   "ax": 0.4925,
+   "ay": 0.8966
+  },
+  "nibbler_flash_0": {
+   "x": 249,
+   "y": 60,
+   "w": 25,
+   "h": 17,
+   "ax": 0.48,
+   "ay": 0.8824
+  },
+  "nibbler_flash_1": {
+   "x": 275,
+   "y": 60,
+   "w": 25,
+   "h": 17,
+   "ax": 0.48,
+   "ay": 0.8824
+  },
+  "nibbler_idle_0": {
+   "x": 398,
+   "y": 60,
+   "w": 23,
+   "h": 16,
+   "ax": 0.4783,
+   "ay": 0.875
+  },
+  "nibbler_idle_1": {
+   "x": 564,
+   "y": 60,
+   "w": 17,
+   "h": 15,
+   "ax": 0.4706,
+   "ay": 0.8667
+  },
+  "nibbler_scuttle_0": {
+   "x": 422,
+   "y": 60,
+   "w": 23,
+   "h": 16,
+   "ax": 0.4783,
+   "ay": 0.875
+  },
+  "nibbler_scuttle_1": {
+   "x": 301,
+   "y": 60,
+   "w": 23,
+   "h": 17,
+   "ax": 0.4783,
+   "ay": 0.8824
+  },
+  "nibbler_scuttle_2": {
+   "x": 464,
+   "y": 60,
+   "w": 17,
+   "h": 16,
+   "ax": 0.4706,
+   "ay": 0.875
+  },
+  "nibbler_scuttle_3": {
+   "x": 349,
+   "y": 60,
+   "w": 17,
+   "h": 17,
+   "ax": 0.4706,
+   "ay": 0.8824
+  },
+  "nibbler_tell_0": {
+   "x": 325,
+   "y": 60,
+   "w": 23,
+   "h": 17,
+   "ax": 0.4783,
+   "ay": 0.8824
+  },
+  "nibbler_tell_1": {
+   "x": 201,
+   "y": 60,
+   "w": 23,
+   "h": 19,
+   "ax": 0.4783,
+   "ay": 0.8947
+  },
+  "nibbler_tell_2": {
+   "x": 225,
+   "y": 60,
+   "w": 23,
+   "h": 19,
+   "ax": 0.4783,
+   "ay": 0.8947
+  }
+ },
+ "anims": {
+  "nibbler_idle": {
+   "frames": [
+    "nibbler_idle_0",
+    "nibbler_idle_1"
+   ],
+   "fps": 3,
+   "loop": true
+  },
+  "nibbler_scuttle": {
+   "frames": [
+    "nibbler_scuttle_0",
+    "nibbler_scuttle_1",
+    "nibbler_scuttle_2",
+    "nibbler_scuttle_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "nibbler_tell": {
+   "frames": [
+    "nibbler_tell_0",
+    "nibbler_tell_1",
+    "nibbler_tell_2"
+   ],
+   "fps": 8,
+   "loop": false
+  },
+  "nibbler_bite": {
+   "frames": [
+    "nibbler_bite_0",
+    "nibbler_bite_1",
+    "nibbler_bite_2"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "nibbler_flash": {
+   "frames": [
+    "nibbler_flash_0",
+    "nibbler_flash_1"
+   ],
+   "fps": 1,
+   "loop": false
+  },
+  "nibbler_death": {
+   "frames": [
+    "nibbler_death_0",
+    "nibbler_death_1",
+    "nibbler_death_2",
+    "nibbler_death_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "nibbler_elite_idle": {
+   "frames": [
+    "nibbler_elite_idle_0",
+    "nibbler_elite_idle_1"
+   ],
+   "fps": 3,
+   "loop": true
+  },
+  "nibbler_elite_scuttle": {
+   "frames": [
+    "nibbler_elite_scuttle_0",
+    "nibbler_elite_scuttle_1",
+    "nibbler_elite_scuttle_2",
+    "nibbler_elite_scuttle_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "nibbler_elite_tell": {
+   "frames": [
+    "nibbler_elite_tell_0",
+    "nibbler_elite_tell_1",
+    "nibbler_elite_tell_2"
+   ],
+   "fps": 8,
+   "loop": false
+  },
+  "nibbler_elite_bite": {
+   "frames": [
+    "nibbler_elite_bite_0",
+    "nibbler_elite_bite_1",
+    "nibbler_elite_bite_2"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "nibbler_elite_flash": {
+   "frames": [
+    "nibbler_elite_flash_0",
+    "nibbler_elite_flash_1"
+   ],
+   "fps": 1,
+   "loop": false
+  },
+  "nibbler_elite_death": {
+   "frames": [
+    "nibbler_elite_death_0",
+    "nibbler_elite_death_1",
+    "nibbler_elite_death_2",
+    "nibbler_elite_death_3"
+   ],
+   "fps": 12,
+   "loop": false
+  }
+ }
+}

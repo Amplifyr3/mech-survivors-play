@@ -1,0 +1,312 @@
+{
+ "group": "pictograms",
+ "image": "pictograms.png",
+ "size": {
+  "w": 941,
+  "h": 31
+ },
+ "frames": {
+  "picto_collect_0": {
+   "x": 33,
+   "y": 1,
+   "w": 30,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.069
+  },
+  "picto_collect_1": {
+   "x": 64,
+   "y": 1,
+   "w": 30,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.069
+  },
+  "picto_collect_2": {
+   "x": 95,
+   "y": 1,
+   "w": 30,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.069
+  },
+  "picto_collect_3": {
+   "x": 126,
+   "y": 1,
+   "w": 30,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.069
+  },
+  "picto_collect_4": {
+   "x": 157,
+   "y": 1,
+   "w": 30,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.069
+  },
+  "picto_collect_5": {
+   "x": 188,
+   "y": 1,
+   "w": 30,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.069
+  },
+  "picto_hen_0": {
+   "x": 505,
+   "y": 1,
+   "w": 31,
+   "h": 19,
+   "ax": 0.4839,
+   "ay": 1.1053
+  },
+  "picto_hen_1": {
+   "x": 406,
+   "y": 1,
+   "w": 32,
+   "h": 19,
+   "ax": 0.5,
+   "ay": 1.1053
+  },
+  "picto_hen_2": {
+   "x": 439,
+   "y": 1,
+   "w": 32,
+   "h": 19,
+   "ax": 0.5,
+   "ay": 1.1053
+  },
+  "picto_hen_3": {
+   "x": 472,
+   "y": 1,
+   "w": 32,
+   "h": 19,
+   "ax": 0.5,
+   "ay": 1.1053
+  },
+  "picto_hen_4": {
+   "x": 537,
+   "y": 1,
+   "w": 31,
+   "h": 19,
+   "ax": 0.4839,
+   "ay": 1.1053
+  },
+  "picto_hen_5": {
+   "x": 250,
+   "y": 1,
+   "w": 31,
+   "h": 27,
+   "ax": 0.4839,
+   "ay": 1.0741
+  },
+  "picto_hold_0": {
+   "x": 569,
+   "y": 1,
+   "w": 30,
+   "h": 19,
+   "ax": 0.5,
+   "ay": 1.1053
+  },
+  "picto_hold_1": {
+   "x": 600,
+   "y": 1,
+   "w": 30,
+   "h": 19,
+   "ax": 0.5,
+   "ay": 1.1053
+  },
+  "picto_hold_2": {
+   "x": 631,
+   "y": 1,
+   "w": 30,
+   "h": 19,
+   "ax": 0.5,
+   "ay": 1.1053
+  },
+  "picto_hold_3": {
+   "x": 344,
+   "y": 1,
+   "w": 30,
+   "h": 20,
+   "ax": 0.5,
+   "ay": 1.05
+  },
+  "picto_hold_4": {
+   "x": 375,
+   "y": 1,
+   "w": 30,
+   "h": 20,
+   "ax": 0.5,
+   "ay": 1.05
+  },
+  "picto_hold_5": {
+   "x": 219,
+   "y": 1,
+   "w": 30,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.0345
+  },
+  "picto_rescue_0": {
+   "x": 848,
+   "y": 1,
+   "w": 30,
+   "h": 14,
+   "ax": 0.5,
+   "ay": 1.1429
+  },
+  "picto_rescue_1": {
+   "x": 879,
+   "y": 1,
+   "w": 30,
+   "h": 14,
+   "ax": 0.5,
+   "ay": 1.1429
+  },
+  "picto_rescue_2": {
+   "x": 910,
+   "y": 1,
+   "w": 30,
+   "h": 14,
+   "ax": 0.5,
+   "ay": 1.1429
+  },
+  "picto_rescue_3": {
+   "x": 662,
+   "y": 1,
+   "w": 30,
+   "h": 18,
+   "ax": 0.5,
+   "ay": 1.1111
+  },
+  "picto_rescue_4": {
+   "x": 282,
+   "y": 1,
+   "w": 30,
+   "h": 26,
+   "ax": 0.5,
+   "ay": 1.0769
+  },
+  "picto_rescue_5": {
+   "x": 1,
+   "y": 1,
+   "w": 31,
+   "h": 29,
+   "ax": 0.4839,
+   "ay": 1.069
+  },
+  "picto_smash_0": {
+   "x": 693,
+   "y": 1,
+   "w": 30,
+   "h": 15,
+   "ax": 0.5,
+   "ay": 1.1333
+  },
+  "picto_smash_1": {
+   "x": 724,
+   "y": 1,
+   "w": 30,
+   "h": 15,
+   "ax": 0.5,
+   "ay": 1.1333
+  },
+  "picto_smash_2": {
+   "x": 755,
+   "y": 1,
+   "w": 30,
+   "h": 15,
+   "ax": 0.5,
+   "ay": 1.1333
+  },
+  "picto_smash_3": {
+   "x": 786,
+   "y": 1,
+   "w": 30,
+   "h": 15,
+   "ax": 0.5,
+   "ay": 1.1333
+  },
+  "picto_smash_4": {
+   "x": 817,
+   "y": 1,
+   "w": 30,
+   "h": 15,
+   "ax": 0.5,
+   "ay": 1.1333
+  },
+  "picto_smash_5": {
+   "x": 313,
+   "y": 1,
+   "w": 30,
+   "h": 26,
+   "ax": 0.5,
+   "ay": 1.0769
+  }
+ },
+ "anims": {
+  "picto_rescue": {
+   "frames": [
+    "picto_rescue_0",
+    "picto_rescue_1",
+    "picto_rescue_2",
+    "picto_rescue_3",
+    "picto_rescue_4",
+    "picto_rescue_5"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "picto_smash": {
+   "frames": [
+    "picto_smash_0",
+    "picto_smash_1",
+    "picto_smash_2",
+    "picto_smash_3",
+    "picto_smash_4",
+    "picto_smash_5"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "picto_collect": {
+   "frames": [
+    "picto_collect_0",
+    "picto_collect_1",
+    "picto_collect_2",
+    "picto_collect_3",
+    "picto_collect_4",
+    "picto_collect_5"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "picto_hold": {
+   "frames": [
+    "picto_hold_0",
+    "picto_hold_1",
+    "picto_hold_2",
+    "picto_hold_3",
+    "picto_hold_4",
+    "picto_hold_5"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "picto_hen": {
+   "frames": [
+    "picto_hen_0",
+    "picto_hen_1",
+    "picto_hen_2",
+    "picto_hen_3",
+    "picto_hen_4",
+    "picto_hen_5"
+   ],
+   "fps": 4,
+   "loop": true
+  }
+ }
+}

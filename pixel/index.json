@@ -1,0 +1,1015 @@
+{
+ "groups": [
+  "bulldog",
+  "nibbler",
+  "hopper",
+  "pickups",
+  "pictograms",
+  "icons",
+  "fx"
+ ],
+ "anims": {
+  "bulldog_pip_p0a0_idle": {
+   "frames": [
+    "bulldog_pip_p0a0_idle_0",
+    "bulldog_pip_p0a0_idle_1",
+    "bulldog_pip_p0a0_idle_2",
+    "bulldog_pip_p0a0_idle_3"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "bulldog_pip_p0a0_walk": {
+   "frames": [
+    "bulldog_pip_p0a0_walk_0",
+    "bulldog_pip_p0a0_walk_1",
+    "bulldog_pip_p0a0_walk_2",
+    "bulldog_pip_p0a0_walk_3",
+    "bulldog_pip_p0a0_walk_4",
+    "bulldog_pip_p0a0_walk_5"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p0a0_fire": {
+   "frames": [
+    "bulldog_pip_p0a0_fire_0",
+    "bulldog_pip_p0a0_fire_1",
+    "bulldog_pip_p0a0_fire_2",
+    "bulldog_pip_p0a0_fire_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a0_hit": {
+   "frames": [
+    "bulldog_pip_p0a0_hit_0",
+    "bulldog_pip_p0a0_hit_1"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a0_slam": {
+   "frames": [
+    "bulldog_pip_p0a0_slam_0",
+    "bulldog_pip_p0a0_slam_1",
+    "bulldog_pip_p0a0_slam_2",
+    "bulldog_pip_p0a0_slam_3",
+    "bulldog_pip_p0a0_slam_4"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a0_morph": {
+   "frames": [
+    "bulldog_pip_p0a0_morph_0",
+    "bulldog_pip_p0a0_morph_1",
+    "bulldog_pip_p0a0_morph_2",
+    "bulldog_pip_p0a0_morph_3",
+    "bulldog_pip_p0a0_morph_4",
+    "bulldog_pip_p0a0_morph_5"
+   ],
+   "fps": 14,
+   "loop": false
+  },
+  "bulldog_pip_p0a0_drive": {
+   "frames": [
+    "bulldog_pip_p0a0_drive_0",
+    "bulldog_pip_p0a0_drive_1",
+    "bulldog_pip_p0a0_drive_2",
+    "bulldog_pip_p0a0_drive_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p1a0_idle": {
+   "frames": [
+    "bulldog_pip_p1a0_idle_0",
+    "bulldog_pip_p1a0_idle_1",
+    "bulldog_pip_p1a0_idle_2",
+    "bulldog_pip_p1a0_idle_3"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "bulldog_pip_p1a0_walk": {
+   "frames": [
+    "bulldog_pip_p1a0_walk_0",
+    "bulldog_pip_p1a0_walk_1",
+    "bulldog_pip_p1a0_walk_2",
+    "bulldog_pip_p1a0_walk_3",
+    "bulldog_pip_p1a0_walk_4",
+    "bulldog_pip_p1a0_walk_5"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p1a0_fire": {
+   "frames": [
+    "bulldog_pip_p1a0_fire_0",
+    "bulldog_pip_p1a0_fire_1",
+    "bulldog_pip_p1a0_fire_2",
+    "bulldog_pip_p1a0_fire_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p1a0_hit": {
+   "frames": [
+    "bulldog_pip_p1a0_hit_0",
+    "bulldog_pip_p1a0_hit_1"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p1a0_slam": {
+   "frames": [
+    "bulldog_pip_p1a0_slam_0",
+    "bulldog_pip_p1a0_slam_1",
+    "bulldog_pip_p1a0_slam_2",
+    "bulldog_pip_p1a0_slam_3",
+    "bulldog_pip_p1a0_slam_4"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p1a0_morph": {
+   "frames": [
+    "bulldog_pip_p1a0_morph_0",
+    "bulldog_pip_p1a0_morph_1",
+    "bulldog_pip_p1a0_morph_2",
+    "bulldog_pip_p1a0_morph_3",
+    "bulldog_pip_p1a0_morph_4",
+    "bulldog_pip_p1a0_morph_5"
+   ],
+   "fps": 14,
+   "loop": false
+  },
+  "bulldog_pip_p1a0_drive": {
+   "frames": [
+    "bulldog_pip_p1a0_drive_0",
+    "bulldog_pip_p1a0_drive_1",
+    "bulldog_pip_p1a0_drive_2",
+    "bulldog_pip_p1a0_drive_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p3a0_idle": {
+   "frames": [
+    "bulldog_pip_p3a0_idle_0",
+    "bulldog_pip_p3a0_idle_1",
+    "bulldog_pip_p3a0_idle_2",
+    "bulldog_pip_p3a0_idle_3"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "bulldog_pip_p3a0_walk": {
+   "frames": [
+    "bulldog_pip_p3a0_walk_0",
+    "bulldog_pip_p3a0_walk_1",
+    "bulldog_pip_p3a0_walk_2",
+    "bulldog_pip_p3a0_walk_3",
+    "bulldog_pip_p3a0_walk_4",
+    "bulldog_pip_p3a0_walk_5"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p3a0_fire": {
+   "frames": [
+    "bulldog_pip_p3a0_fire_0",
+    "bulldog_pip_p3a0_fire_1",
+    "bulldog_pip_p3a0_fire_2",
+    "bulldog_pip_p3a0_fire_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p3a0_hit": {
+   "frames": [
+    "bulldog_pip_p3a0_hit_0",
+    "bulldog_pip_p3a0_hit_1"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p3a0_slam": {
+   "frames": [
+    "bulldog_pip_p3a0_slam_0",
+    "bulldog_pip_p3a0_slam_1",
+    "bulldog_pip_p3a0_slam_2",
+    "bulldog_pip_p3a0_slam_3",
+    "bulldog_pip_p3a0_slam_4"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p3a0_morph": {
+   "frames": [
+    "bulldog_pip_p3a0_morph_0",
+    "bulldog_pip_p3a0_morph_1",
+    "bulldog_pip_p3a0_morph_2",
+    "bulldog_pip_p3a0_morph_3",
+    "bulldog_pip_p3a0_morph_4",
+    "bulldog_pip_p3a0_morph_5"
+   ],
+   "fps": 14,
+   "loop": false
+  },
+  "bulldog_pip_p3a0_drive": {
+   "frames": [
+    "bulldog_pip_p3a0_drive_0",
+    "bulldog_pip_p3a0_drive_1",
+    "bulldog_pip_p3a0_drive_2",
+    "bulldog_pip_p3a0_drive_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p5a0_idle": {
+   "frames": [
+    "bulldog_pip_p5a0_idle_0",
+    "bulldog_pip_p5a0_idle_1",
+    "bulldog_pip_p5a0_idle_2",
+    "bulldog_pip_p5a0_idle_3"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "bulldog_pip_p5a0_walk": {
+   "frames": [
+    "bulldog_pip_p5a0_walk_0",
+    "bulldog_pip_p5a0_walk_1",
+    "bulldog_pip_p5a0_walk_2",
+    "bulldog_pip_p5a0_walk_3",
+    "bulldog_pip_p5a0_walk_4",
+    "bulldog_pip_p5a0_walk_5"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p5a0_fire": {
+   "frames": [
+    "bulldog_pip_p5a0_fire_0",
+    "bulldog_pip_p5a0_fire_1",
+    "bulldog_pip_p5a0_fire_2",
+    "bulldog_pip_p5a0_fire_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p5a0_hit": {
+   "frames": [
+    "bulldog_pip_p5a0_hit_0",
+    "bulldog_pip_p5a0_hit_1"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p5a0_slam": {
+   "frames": [
+    "bulldog_pip_p5a0_slam_0",
+    "bulldog_pip_p5a0_slam_1",
+    "bulldog_pip_p5a0_slam_2",
+    "bulldog_pip_p5a0_slam_3",
+    "bulldog_pip_p5a0_slam_4"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p5a0_morph": {
+   "frames": [
+    "bulldog_pip_p5a0_morph_0",
+    "bulldog_pip_p5a0_morph_1",
+    "bulldog_pip_p5a0_morph_2",
+    "bulldog_pip_p5a0_morph_3",
+    "bulldog_pip_p5a0_morph_4",
+    "bulldog_pip_p5a0_morph_5"
+   ],
+   "fps": 14,
+   "loop": false
+  },
+  "bulldog_pip_p5a0_drive": {
+   "frames": [
+    "bulldog_pip_p5a0_drive_0",
+    "bulldog_pip_p5a0_drive_1",
+    "bulldog_pip_p5a0_drive_2",
+    "bulldog_pip_p5a0_drive_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p0a1_idle": {
+   "frames": [
+    "bulldog_pip_p0a1_idle_0",
+    "bulldog_pip_p0a1_idle_1",
+    "bulldog_pip_p0a1_idle_2",
+    "bulldog_pip_p0a1_idle_3"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "bulldog_pip_p0a1_walk": {
+   "frames": [
+    "bulldog_pip_p0a1_walk_0",
+    "bulldog_pip_p0a1_walk_1",
+    "bulldog_pip_p0a1_walk_2",
+    "bulldog_pip_p0a1_walk_3",
+    "bulldog_pip_p0a1_walk_4",
+    "bulldog_pip_p0a1_walk_5"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p0a1_fire": {
+   "frames": [
+    "bulldog_pip_p0a1_fire_0",
+    "bulldog_pip_p0a1_fire_1",
+    "bulldog_pip_p0a1_fire_2",
+    "bulldog_pip_p0a1_fire_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a1_hit": {
+   "frames": [
+    "bulldog_pip_p0a1_hit_0",
+    "bulldog_pip_p0a1_hit_1"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a1_slam": {
+   "frames": [
+    "bulldog_pip_p0a1_slam_0",
+    "bulldog_pip_p0a1_slam_1",
+    "bulldog_pip_p0a1_slam_2",
+    "bulldog_pip_p0a1_slam_3",
+    "bulldog_pip_p0a1_slam_4"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a1_morph": {
+   "frames": [
+    "bulldog_pip_p0a1_morph_0",
+    "bulldog_pip_p0a1_morph_1",
+    "bulldog_pip_p0a1_morph_2",
+    "bulldog_pip_p0a1_morph_3",
+    "bulldog_pip_p0a1_morph_4",
+    "bulldog_pip_p0a1_morph_5"
+   ],
+   "fps": 14,
+   "loop": false
+  },
+  "bulldog_pip_p0a1_drive": {
+   "frames": [
+    "bulldog_pip_p0a1_drive_0",
+    "bulldog_pip_p0a1_drive_1",
+    "bulldog_pip_p0a1_drive_2",
+    "bulldog_pip_p0a1_drive_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p0a3_idle": {
+   "frames": [
+    "bulldog_pip_p0a3_idle_0",
+    "bulldog_pip_p0a3_idle_1",
+    "bulldog_pip_p0a3_idle_2",
+    "bulldog_pip_p0a3_idle_3"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "bulldog_pip_p0a3_walk": {
+   "frames": [
+    "bulldog_pip_p0a3_walk_0",
+    "bulldog_pip_p0a3_walk_1",
+    "bulldog_pip_p0a3_walk_2",
+    "bulldog_pip_p0a3_walk_3",
+    "bulldog_pip_p0a3_walk_4",
+    "bulldog_pip_p0a3_walk_5"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p0a3_fire": {
+   "frames": [
+    "bulldog_pip_p0a3_fire_0",
+    "bulldog_pip_p0a3_fire_1",
+    "bulldog_pip_p0a3_fire_2",
+    "bulldog_pip_p0a3_fire_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a3_hit": {
+   "frames": [
+    "bulldog_pip_p0a3_hit_0",
+    "bulldog_pip_p0a3_hit_1"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a3_slam": {
+   "frames": [
+    "bulldog_pip_p0a3_slam_0",
+    "bulldog_pip_p0a3_slam_1",
+    "bulldog_pip_p0a3_slam_2",
+    "bulldog_pip_p0a3_slam_3",
+    "bulldog_pip_p0a3_slam_4"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a3_morph": {
+   "frames": [
+    "bulldog_pip_p0a3_morph_0",
+    "bulldog_pip_p0a3_morph_1",
+    "bulldog_pip_p0a3_morph_2",
+    "bulldog_pip_p0a3_morph_3",
+    "bulldog_pip_p0a3_morph_4",
+    "bulldog_pip_p0a3_morph_5"
+   ],
+   "fps": 14,
+   "loop": false
+  },
+  "bulldog_pip_p0a3_drive": {
+   "frames": [
+    "bulldog_pip_p0a3_drive_0",
+    "bulldog_pip_p0a3_drive_1",
+    "bulldog_pip_p0a3_drive_2",
+    "bulldog_pip_p0a3_drive_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p0a5_idle": {
+   "frames": [
+    "bulldog_pip_p0a5_idle_0",
+    "bulldog_pip_p0a5_idle_1",
+    "bulldog_pip_p0a5_idle_2",
+    "bulldog_pip_p0a5_idle_3"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "bulldog_pip_p0a5_walk": {
+   "frames": [
+    "bulldog_pip_p0a5_walk_0",
+    "bulldog_pip_p0a5_walk_1",
+    "bulldog_pip_p0a5_walk_2",
+    "bulldog_pip_p0a5_walk_3",
+    "bulldog_pip_p0a5_walk_4",
+    "bulldog_pip_p0a5_walk_5"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p0a5_fire": {
+   "frames": [
+    "bulldog_pip_p0a5_fire_0",
+    "bulldog_pip_p0a5_fire_1",
+    "bulldog_pip_p0a5_fire_2",
+    "bulldog_pip_p0a5_fire_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a5_hit": {
+   "frames": [
+    "bulldog_pip_p0a5_hit_0",
+    "bulldog_pip_p0a5_hit_1"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a5_slam": {
+   "frames": [
+    "bulldog_pip_p0a5_slam_0",
+    "bulldog_pip_p0a5_slam_1",
+    "bulldog_pip_p0a5_slam_2",
+    "bulldog_pip_p0a5_slam_3",
+    "bulldog_pip_p0a5_slam_4"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p0a5_morph": {
+   "frames": [
+    "bulldog_pip_p0a5_morph_0",
+    "bulldog_pip_p0a5_morph_1",
+    "bulldog_pip_p0a5_morph_2",
+    "bulldog_pip_p0a5_morph_3",
+    "bulldog_pip_p0a5_morph_4",
+    "bulldog_pip_p0a5_morph_5"
+   ],
+   "fps": 14,
+   "loop": false
+  },
+  "bulldog_pip_p0a5_drive": {
+   "frames": [
+    "bulldog_pip_p0a5_drive_0",
+    "bulldog_pip_p0a5_drive_1",
+    "bulldog_pip_p0a5_drive_2",
+    "bulldog_pip_p0a5_drive_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p3a3_idle": {
+   "frames": [
+    "bulldog_pip_p3a3_idle_0",
+    "bulldog_pip_p3a3_idle_1",
+    "bulldog_pip_p3a3_idle_2",
+    "bulldog_pip_p3a3_idle_3"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "bulldog_pip_p3a3_walk": {
+   "frames": [
+    "bulldog_pip_p3a3_walk_0",
+    "bulldog_pip_p3a3_walk_1",
+    "bulldog_pip_p3a3_walk_2",
+    "bulldog_pip_p3a3_walk_3",
+    "bulldog_pip_p3a3_walk_4",
+    "bulldog_pip_p3a3_walk_5"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p3a3_fire": {
+   "frames": [
+    "bulldog_pip_p3a3_fire_0",
+    "bulldog_pip_p3a3_fire_1",
+    "bulldog_pip_p3a3_fire_2",
+    "bulldog_pip_p3a3_fire_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p3a3_hit": {
+   "frames": [
+    "bulldog_pip_p3a3_hit_0",
+    "bulldog_pip_p3a3_hit_1"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p3a3_slam": {
+   "frames": [
+    "bulldog_pip_p3a3_slam_0",
+    "bulldog_pip_p3a3_slam_1",
+    "bulldog_pip_p3a3_slam_2",
+    "bulldog_pip_p3a3_slam_3",
+    "bulldog_pip_p3a3_slam_4"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p3a3_morph": {
+   "frames": [
+    "bulldog_pip_p3a3_morph_0",
+    "bulldog_pip_p3a3_morph_1",
+    "bulldog_pip_p3a3_morph_2",
+    "bulldog_pip_p3a3_morph_3",
+    "bulldog_pip_p3a3_morph_4",
+    "bulldog_pip_p3a3_morph_5"
+   ],
+   "fps": 14,
+   "loop": false
+  },
+  "bulldog_pip_p3a3_drive": {
+   "frames": [
+    "bulldog_pip_p3a3_drive_0",
+    "bulldog_pip_p3a3_drive_1",
+    "bulldog_pip_p3a3_drive_2",
+    "bulldog_pip_p3a3_drive_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p5a5_idle": {
+   "frames": [
+    "bulldog_pip_p5a5_idle_0",
+    "bulldog_pip_p5a5_idle_1",
+    "bulldog_pip_p5a5_idle_2",
+    "bulldog_pip_p5a5_idle_3"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "bulldog_pip_p5a5_walk": {
+   "frames": [
+    "bulldog_pip_p5a5_walk_0",
+    "bulldog_pip_p5a5_walk_1",
+    "bulldog_pip_p5a5_walk_2",
+    "bulldog_pip_p5a5_walk_3",
+    "bulldog_pip_p5a5_walk_4",
+    "bulldog_pip_p5a5_walk_5"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_pip_p5a5_fire": {
+   "frames": [
+    "bulldog_pip_p5a5_fire_0",
+    "bulldog_pip_p5a5_fire_1",
+    "bulldog_pip_p5a5_fire_2",
+    "bulldog_pip_p5a5_fire_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p5a5_hit": {
+   "frames": [
+    "bulldog_pip_p5a5_hit_0",
+    "bulldog_pip_p5a5_hit_1"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p5a5_slam": {
+   "frames": [
+    "bulldog_pip_p5a5_slam_0",
+    "bulldog_pip_p5a5_slam_1",
+    "bulldog_pip_p5a5_slam_2",
+    "bulldog_pip_p5a5_slam_3",
+    "bulldog_pip_p5a5_slam_4"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_pip_p5a5_morph": {
+   "frames": [
+    "bulldog_pip_p5a5_morph_0",
+    "bulldog_pip_p5a5_morph_1",
+    "bulldog_pip_p5a5_morph_2",
+    "bulldog_pip_p5a5_morph_3",
+    "bulldog_pip_p5a5_morph_4",
+    "bulldog_pip_p5a5_morph_5"
+   ],
+   "fps": 14,
+   "loop": false
+  },
+  "bulldog_pip_p5a5_drive": {
+   "frames": [
+    "bulldog_pip_p5a5_drive_0",
+    "bulldog_pip_p5a5_drive_1",
+    "bulldog_pip_p5a5_drive_2",
+    "bulldog_pip_p5a5_drive_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_juno_p0a0_idle": {
+   "frames": [
+    "bulldog_juno_p0a0_idle_0",
+    "bulldog_juno_p0a0_idle_1",
+    "bulldog_juno_p0a0_idle_2",
+    "bulldog_juno_p0a0_idle_3"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "bulldog_juno_p0a0_walk": {
+   "frames": [
+    "bulldog_juno_p0a0_walk_0",
+    "bulldog_juno_p0a0_walk_1",
+    "bulldog_juno_p0a0_walk_2",
+    "bulldog_juno_p0a0_walk_3",
+    "bulldog_juno_p0a0_walk_4",
+    "bulldog_juno_p0a0_walk_5"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "bulldog_juno_p0a0_fire": {
+   "frames": [
+    "bulldog_juno_p0a0_fire_0",
+    "bulldog_juno_p0a0_fire_1",
+    "bulldog_juno_p0a0_fire_2",
+    "bulldog_juno_p0a0_fire_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_juno_p0a0_hit": {
+   "frames": [
+    "bulldog_juno_p0a0_hit_0",
+    "bulldog_juno_p0a0_hit_1"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_juno_p0a0_slam": {
+   "frames": [
+    "bulldog_juno_p0a0_slam_0",
+    "bulldog_juno_p0a0_slam_1",
+    "bulldog_juno_p0a0_slam_2",
+    "bulldog_juno_p0a0_slam_3",
+    "bulldog_juno_p0a0_slam_4"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "bulldog_juno_p0a0_morph": {
+   "frames": [
+    "bulldog_juno_p0a0_morph_0",
+    "bulldog_juno_p0a0_morph_1",
+    "bulldog_juno_p0a0_morph_2",
+    "bulldog_juno_p0a0_morph_3",
+    "bulldog_juno_p0a0_morph_4",
+    "bulldog_juno_p0a0_morph_5"
+   ],
+   "fps": 14,
+   "loop": false
+  },
+  "bulldog_juno_p0a0_drive": {
+   "frames": [
+    "bulldog_juno_p0a0_drive_0",
+    "bulldog_juno_p0a0_drive_1",
+    "bulldog_juno_p0a0_drive_2",
+    "bulldog_juno_p0a0_drive_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "nibbler_idle": {
+   "frames": [
+    "nibbler_idle_0",
+    "nibbler_idle_1"
+   ],
+   "fps": 3,
+   "loop": true
+  },
+  "nibbler_scuttle": {
+   "frames": [
+    "nibbler_scuttle_0",
+    "nibbler_scuttle_1",
+    "nibbler_scuttle_2",
+    "nibbler_scuttle_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "nibbler_tell": {
+   "frames": [
+    "nibbler_tell_0",
+    "nibbler_tell_1",
+    "nibbler_tell_2"
+   ],
+   "fps": 8,
+   "loop": false
+  },
+  "nibbler_bite": {
+   "frames": [
+    "nibbler_bite_0",
+    "nibbler_bite_1",
+    "nibbler_bite_2"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "nibbler_flash": {
+   "frames": [
+    "nibbler_flash_0",
+    "nibbler_flash_1"
+   ],
+   "fps": 1,
+   "loop": false
+  },
+  "nibbler_death": {
+   "frames": [
+    "nibbler_death_0",
+    "nibbler_death_1",
+    "nibbler_death_2",
+    "nibbler_death_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "nibbler_elite_idle": {
+   "frames": [
+    "nibbler_elite_idle_0",
+    "nibbler_elite_idle_1"
+   ],
+   "fps": 3,
+   "loop": true
+  },
+  "nibbler_elite_scuttle": {
+   "frames": [
+    "nibbler_elite_scuttle_0",
+    "nibbler_elite_scuttle_1",
+    "nibbler_elite_scuttle_2",
+    "nibbler_elite_scuttle_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "nibbler_elite_tell": {
+   "frames": [
+    "nibbler_elite_tell_0",
+    "nibbler_elite_tell_1",
+    "nibbler_elite_tell_2"
+   ],
+   "fps": 8,
+   "loop": false
+  },
+  "nibbler_elite_bite": {
+   "frames": [
+    "nibbler_elite_bite_0",
+    "nibbler_elite_bite_1",
+    "nibbler_elite_bite_2"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "nibbler_elite_flash": {
+   "frames": [
+    "nibbler_elite_flash_0",
+    "nibbler_elite_flash_1"
+   ],
+   "fps": 1,
+   "loop": false
+  },
+  "nibbler_elite_death": {
+   "frames": [
+    "nibbler_elite_death_0",
+    "nibbler_elite_death_1",
+    "nibbler_elite_death_2",
+    "nibbler_elite_death_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "hopper_idle": {
+   "frames": [
+    "hopper_idle_0",
+    "hopper_idle_1"
+   ],
+   "fps": 3,
+   "loop": true
+  },
+  "hopper_move": {
+   "frames": [
+    "hopper_move_0",
+    "hopper_move_1",
+    "hopper_move_2",
+    "hopper_move_3"
+   ],
+   "fps": 8,
+   "loop": true
+  },
+  "hopper_tell": {
+   "frames": [
+    "hopper_tell_0",
+    "hopper_tell_1",
+    "hopper_tell_2"
+   ],
+   "fps": 6,
+   "loop": false
+  },
+  "hopper_leap": {
+   "frames": [
+    "hopper_leap_0",
+    "hopper_leap_1",
+    "hopper_leap_2"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "hopper_flash": {
+   "frames": [
+    "hopper_flash_0",
+    "hopper_flash_1"
+   ],
+   "fps": 1,
+   "loop": false
+  },
+  "hopper_death": {
+   "frames": [
+    "hopper_death_0",
+    "hopper_death_1",
+    "hopper_death_2",
+    "hopper_death_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "gem_s": {
+   "frames": [
+    "gem_s_0",
+    "gem_s_1"
+   ],
+   "fps": 2,
+   "loop": true
+  },
+  "gem_m": {
+   "frames": [
+    "gem_m_0",
+    "gem_m_1"
+   ],
+   "fps": 2,
+   "loop": true
+  },
+  "gem_l": {
+   "frames": [
+    "gem_l_0",
+    "gem_l_1"
+   ],
+   "fps": 2,
+   "loop": true
+  },
+  "heart": {
+   "frames": [
+    "heart_0",
+    "heart_1"
+   ],
+   "fps": 2,
+   "loop": true
+  },
+  "chest": {
+   "frames": [
+    "chest_0",
+    "chest_1",
+    "chest_2"
+   ],
+   "fps": 6,
+   "loop": false
+  },
+  "picto_rescue": {
+   "frames": [
+    "picto_rescue_0",
+    "picto_rescue_1",
+    "picto_rescue_2",
+    "picto_rescue_3",
+    "picto_rescue_4",
+    "picto_rescue_5"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "picto_smash": {
+   "frames": [
+    "picto_smash_0",
+    "picto_smash_1",
+    "picto_smash_2",
+    "picto_smash_3",
+    "picto_smash_4",
+    "picto_smash_5"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "picto_collect": {
+   "frames": [
+    "picto_collect_0",
+    "picto_collect_1",
+    "picto_collect_2",
+    "picto_collect_3",
+    "picto_collect_4",
+    "picto_collect_5"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "picto_hold": {
+   "frames": [
+    "picto_hold_0",
+    "picto_hold_1",
+    "picto_hold_2",
+    "picto_hold_3",
+    "picto_hold_4",
+    "picto_hold_5"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "picto_hen": {
+   "frames": [
+    "picto_hen_0",
+    "picto_hen_1",
+    "picto_hen_2",
+    "picto_hen_3",
+    "picto_hen_4",
+    "picto_hen_5"
+   ],
+   "fps": 4,
+   "loop": true
+  },
+  "muzzle": {
+   "frames": [
+    "muzzle_0",
+    "muzzle_1",
+    "muzzle_2"
+   ],
+   "fps": 18,
+   "loop": false
+  }
+ }
+}
