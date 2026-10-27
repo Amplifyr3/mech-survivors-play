@@ -1,0 +1,74 @@
+{
+ "frames": {
+  "buddy_brolly": {
+   "ax": 0.5,
+   "ay": 0.9118,
+   "h": 17,
+   "w": 24,
+   "x": 100,
+   "y": 1
+  },
+  "buddy_digger": {
+   "ax": 0.5,
+   "ay": 0.9,
+   "h": 15,
+   "w": 23,
+   "x": 159,
+   "y": 1
+  },
+  "buddy_knightFlake": {
+   "ax": 0.5,
+   "ay": 0.9348,
+   "h": 23,
+   "w": 21,
+   "x": 49,
+   "y": 1
+  },
+  "buddy_knightPlough": {
+   "ax": 0.5,
+   "ay": 0.925,
+   "h": 20,
+   "w": 28,
+   "x": 71,
+   "y": 1
+  },
+  "buddy_linker": {
+   "ax": 0.5,
+   "ay": 0.9062,
+   "h": 16,
+   "w": 33,
+   "x": 125,
+   "y": 1
+  },
+  "buddy_queenShiver": {
+   "ax": 0.5,
+   "ay": 0.94,
+   "h": 25,
+   "w": 25,
+   "x": 1,
+   "y": 1
+  },
+  "buddy_scarfBeep": {
+   "ax": 0.5476,
+   "ay": 0.94,
+   "h": 25,
+   "w": 21,
+   "x": 27,
+   "y": 1
+  },
+  "buddy_snowball": {
+   "ax": 0.5,
+   "ay": 0.9,
+   "h": 15,
+   "w": 26,
+   "x": 183,
+   "y": 1
+  }
+ },
+ "group": "buddies3",
+ "image": "buddies3.png",
+ "size": [
+  1024,
+  32
+ ]
+}
