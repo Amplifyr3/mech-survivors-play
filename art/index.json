@@ -1,9 +1,13 @@
 {
  "groups": [
   "bosses",
+  "bosses2",
   "buddies",
+  "buddies2",
   "bugs",
+  "bugs2",
   "harbour",
+  "map2",
   "meta",
   "props",
   "v3bugs",
