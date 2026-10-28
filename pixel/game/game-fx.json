@@ -1,0 +1,19 @@
+{
+ "group": "game-fx",
+ "image": "game-fx.png",
+ "size": {
+  "w": 16,
+  "h": 6
+ },
+ "frames": {
+  "shadow": {
+   "x": 1,
+   "y": 1,
+   "w": 14,
+   "h": 4,
+   "ax": 0.5,
+   "ay": 0.5
+  }
+ },
+ "anims": {}
+}

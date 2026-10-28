@@ -1,0 +1,426 @@
+{
+ "group": "chomp",
+ "image": "chomp.png",
+ "size": {
+  "w": 1007,
+  "h": 95
+ },
+ "frames": {
+  "chomp_chomp_0": {
+   "x": 852,
+   "y": 1,
+   "w": 22,
+   "h": 30,
+   "ax": 0.3636,
+   "ay": 0.9333
+  },
+  "chomp_chomp_1": {
+   "x": 47,
+   "y": 76,
+   "w": 20,
+   "h": 18,
+   "ax": 0.3,
+   "ay": 0.8889
+  },
+  "chomp_chomp_2": {
+   "x": 875,
+   "y": 1,
+   "w": 20,
+   "h": 30,
+   "ax": 0.3,
+   "ay": 0.9333
+  },
+  "chomp_chomp_3": {
+   "x": 89,
+   "y": 76,
+   "w": 20,
+   "h": 17,
+   "ax": 0.45,
+   "ay": 0.8824
+  },
+  "chomp_death_0": {
+   "x": 984,
+   "y": 1,
+   "w": 22,
+   "h": 18,
+   "ax": 0.5,
+   "ay": 0.8889
+  },
+  "chomp_death_1": {
+   "x": 286,
+   "y": 76,
+   "w": 20,
+   "h": 10,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "chomp_death_2": {
+   "x": 261,
+   "y": 76,
+   "w": 24,
+   "h": 13,
+   "ax": 0.5,
+   "ay": 0.8462
+  },
+  "chomp_death_3": {
+   "x": 234,
+   "y": 76,
+   "w": 26,
+   "h": 13,
+   "ax": 0.5385,
+   "ay": 0.8462
+  },
+  "chomp_elite_chomp_0": {
+   "x": 1,
+   "y": 1,
+   "w": 48,
+   "h": 74,
+   "ax": 0.3438,
+   "ay": 0.9459
+  },
+  "chomp_elite_chomp_1": {
+   "x": 328,
+   "y": 1,
+   "w": 44,
+   "h": 43,
+   "ax": 0.2614,
+   "ay": 0.9535
+  },
+  "chomp_elite_chomp_2": {
+   "x": 50,
+   "y": 1,
+   "w": 46,
+   "h": 74,
+   "ax": 0.2717,
+   "ay": 0.9459
+  },
+  "chomp_elite_chomp_3": {
+   "x": 373,
+   "y": 1,
+   "w": 44,
+   "h": 43,
+   "ax": 0.4205,
+   "ay": 0.9535
+  },
+  "chomp_elite_death_0": {
+   "x": 187,
+   "y": 1,
+   "w": 46,
+   "h": 45,
+   "ax": 0.4891,
+   "ay": 0.9333
+  },
+  "chomp_elite_death_1": {
+   "x": 938,
+   "y": 1,
+   "w": 45,
+   "h": 22,
+   "ax": 0.4778,
+   "ay": 1.1364
+  },
+  "chomp_elite_death_2": {
+   "x": 793,
+   "y": 1,
+   "w": 58,
+   "h": 31,
+   "ax": 0.4914,
+   "ay": 0.9032
+  },
+  "chomp_elite_death_3": {
+   "x": 731,
+   "y": 1,
+   "w": 61,
+   "h": 32,
+   "ax": 0.5492,
+   "ay": 0.8438
+  },
+  "chomp_elite_flash_0": {
+   "x": 234,
+   "y": 1,
+   "w": 46,
+   "h": 45,
+   "ax": 0.4891,
+   "ay": 0.9333
+  },
+  "chomp_elite_flash_1": {
+   "x": 281,
+   "y": 1,
+   "w": 46,
+   "h": 45,
+   "ax": 0.4891,
+   "ay": 0.9333
+  },
+  "chomp_elite_idle_0": {
+   "x": 418,
+   "y": 1,
+   "w": 44,
+   "h": 43,
+   "ax": 0.4886,
+   "ay": 0.9535
+  },
+  "chomp_elite_idle_1": {
+   "x": 688,
+   "y": 1,
+   "w": 42,
+   "h": 43,
+   "ax": 0.4881,
+   "ay": 0.9535
+  },
+  "chomp_elite_tell_0": {
+   "x": 463,
+   "y": 1,
+   "w": 44,
+   "h": 43,
+   "ax": 0.5341,
+   "ay": 0.9535
+  },
+  "chomp_elite_tell_1": {
+   "x": 97,
+   "y": 1,
+   "w": 44,
+   "h": 60,
+   "ax": 0.4432,
+   "ay": 0.9667
+  },
+  "chomp_elite_tell_2": {
+   "x": 142,
+   "y": 1,
+   "w": 44,
+   "h": 60,
+   "ax": 0.5341,
+   "ay": 0.9667
+  },
+  "chomp_elite_walk_0": {
+   "x": 508,
+   "y": 1,
+   "w": 44,
+   "h": 43,
+   "ax": 0.5114,
+   "ay": 0.9535
+  },
+  "chomp_elite_walk_1": {
+   "x": 553,
+   "y": 1,
+   "w": 44,
+   "h": 43,
+   "ax": 0.4886,
+   "ay": 0.9535
+  },
+  "chomp_elite_walk_2": {
+   "x": 598,
+   "y": 1,
+   "w": 44,
+   "h": 43,
+   "ax": 0.4659,
+   "ay": 0.9535
+  },
+  "chomp_elite_walk_3": {
+   "x": 643,
+   "y": 1,
+   "w": 44,
+   "h": 43,
+   "ax": 0.4886,
+   "ay": 0.9535
+  },
+  "chomp_flash_0": {
+   "x": 1,
+   "y": 76,
+   "w": 22,
+   "h": 18,
+   "ax": 0.5,
+   "ay": 0.8889
+  },
+  "chomp_flash_1": {
+   "x": 24,
+   "y": 76,
+   "w": 22,
+   "h": 18,
+   "ax": 0.5,
+   "ay": 0.8889
+  },
+  "chomp_idle_0": {
+   "x": 110,
+   "y": 76,
+   "w": 20,
+   "h": 17,
+   "ax": 0.5,
+   "ay": 0.8824
+  },
+  "chomp_idle_1": {
+   "x": 215,
+   "y": 76,
+   "w": 18,
+   "h": 17,
+   "ax": 0.5,
+   "ay": 0.8824
+  },
+  "chomp_tell_0": {
+   "x": 68,
+   "y": 76,
+   "w": 20,
+   "h": 18,
+   "ax": 0.55,
+   "ay": 0.8889
+  },
+  "chomp_tell_1": {
+   "x": 896,
+   "y": 1,
+   "w": 20,
+   "h": 27,
+   "ax": 0.45,
+   "ay": 0.9259
+  },
+  "chomp_tell_2": {
+   "x": 917,
+   "y": 1,
+   "w": 20,
+   "h": 27,
+   "ax": 0.55,
+   "ay": 0.9259
+  },
+  "chomp_walk_0": {
+   "x": 131,
+   "y": 76,
+   "w": 20,
+   "h": 17,
+   "ax": 0.55,
+   "ay": 0.8824
+  },
+  "chomp_walk_1": {
+   "x": 152,
+   "y": 76,
+   "w": 20,
+   "h": 17,
+   "ax": 0.5,
+   "ay": 0.8824
+  },
+  "chomp_walk_2": {
+   "x": 173,
+   "y": 76,
+   "w": 20,
+   "h": 17,
+   "ax": 0.45,
+   "ay": 0.8824
+  },
+  "chomp_walk_3": {
+   "x": 194,
+   "y": 76,
+   "w": 20,
+   "h": 17,
+   "ax": 0.5,
+   "ay": 0.8824
+  }
+ },
+ "anims": {
+  "chomp_idle": {
+   "frames": [
+    "chomp_idle_0",
+    "chomp_idle_1"
+   ],
+   "fps": 3,
+   "loop": true
+  },
+  "chomp_walk": {
+   "frames": [
+    "chomp_walk_0",
+    "chomp_walk_1",
+    "chomp_walk_2",
+    "chomp_walk_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "chomp_tell": {
+   "frames": [
+    "chomp_tell_0",
+    "chomp_tell_1",
+    "chomp_tell_2"
+   ],
+   "fps": 6,
+   "loop": false
+  },
+  "chomp_chomp": {
+   "frames": [
+    "chomp_chomp_0",
+    "chomp_chomp_1",
+    "chomp_chomp_2",
+    "chomp_chomp_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "chomp_flash": {
+   "frames": [
+    "chomp_flash_0",
+    "chomp_flash_1"
+   ],
+   "fps": 1,
+   "loop": false
+  },
+  "chomp_death": {
+   "frames": [
+    "chomp_death_0",
+    "chomp_death_1",
+    "chomp_death_2",
+    "chomp_death_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "chomp_elite_idle": {
+   "frames": [
+    "chomp_elite_idle_0",
+    "chomp_elite_idle_1"
+   ],
+   "fps": 3,
+   "loop": true
+  },
+  "chomp_elite_walk": {
+   "frames": [
+    "chomp_elite_walk_0",
+    "chomp_elite_walk_1",
+    "chomp_elite_walk_2",
+    "chomp_elite_walk_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "chomp_elite_tell": {
+   "frames": [
+    "chomp_elite_tell_0",
+    "chomp_elite_tell_1",
+    "chomp_elite_tell_2"
+   ],
+   "fps": 6,
+   "loop": false
+  },
+  "chomp_elite_chomp": {
+   "frames": [
+    "chomp_elite_chomp_0",
+    "chomp_elite_chomp_1",
+    "chomp_elite_chomp_2",
+    "chomp_elite_chomp_3"
+   ],
+   "fps": 12,
+   "loop": false
+  },
+  "chomp_elite_flash": {
+   "frames": [
+    "chomp_elite_flash_0",
+    "chomp_elite_flash_1"
+   ],
+   "fps": 1,
+   "loop": false
+  },
+  "chomp_elite_death": {
+   "frames": [
+    "chomp_elite_death_0",
+    "chomp_elite_death_1",
+    "chomp_elite_death_2",
+    "chomp_elite_death_3"
+   ],
+   "fps": 12,
+   "loop": false
+  }
+ }
+}

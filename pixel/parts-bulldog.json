@@ -1,0 +1,3220 @@
+{
+ "mech": "bulldog",
+ "image": "parts-bulldog.png",
+ "size": {
+  "w": 1022,
+  "h": 39
+ },
+ "canvas": {
+  "w": 64,
+  "h": 52,
+  "ox": 30,
+  "oy": 45
+ },
+ "outline": "#1d1530",
+ "edgeDarken": 0.45,
+ "rigs": {
+  "robot": [
+   {
+    "name": "base",
+    "parent": null,
+    "socket": null,
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "none",
+    "sockets": {
+     "footFar": {
+      "x": -12,
+      "y": -1
+     },
+     "footNear": {
+      "x": 9,
+      "y": 0
+     },
+     "thighFar": {
+      "x": -11,
+      "y": -4
+     },
+     "thighNear": {
+      "x": 8,
+      "y": -4
+     },
+     "hips": {
+      "x": 0,
+      "y": -9
+     },
+     "torso": {
+      "x": 0,
+      "y": -13
+     },
+     "tracks": {
+      "x": 0,
+      "y": 0
+     },
+     "fx": {
+      "x": 0,
+      "y": 0
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 568,
+      "y": 32,
+      "w": 1,
+      "h": 1,
+      "px": 0,
+      "py": 0
+     }
+    }
+   },
+   {
+    "name": "footFar",
+    "parent": "base",
+    "socket": "footFar",
+    "dx": 0,
+    "dy": 0,
+    "z": 1,
+    "edge": "shadow",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 68,
+      "y": 32,
+      "w": 9,
+      "h": 5,
+      "px": 4,
+      "py": 4
+     },
+     "bent": {
+      "x": 375,
+      "y": 32,
+      "w": 9,
+      "h": 3,
+      "px": 4,
+      "py": 2
+     }
+    }
+   },
+   {
+    "name": "footNear",
+    "parent": "base",
+    "socket": "footNear",
+    "dx": 0,
+    "dy": 0,
+    "z": 1,
+    "edge": "shadow",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 904,
+      "y": 1,
+      "w": 11,
+      "h": 6,
+      "px": 5,
+      "py": 5
+     },
+     "bent": {
+      "x": 128,
+      "y": 32,
+      "w": 11,
+      "h": 4,
+      "px": 5,
+      "py": 3
+     }
+    }
+   },
+   {
+    "name": "trackFar",
+    "parent": "base",
+    "socket": "tracks",
+    "dx": -2,
+    "dy": -3,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 719,
+      "y": 1,
+      "w": 26,
+      "h": 6,
+      "px": 13,
+      "py": 5
+     },
+     "roll1": {
+      "x": 746,
+      "y": 1,
+      "w": 26,
+      "h": 6,
+      "px": 13,
+      "py": 5
+     },
+     "roll2": {
+      "x": 773,
+      "y": 1,
+      "w": 26,
+      "h": 6,
+      "px": 13,
+      "py": 5
+     }
+    }
+   },
+   {
+    "name": "trackNear",
+    "parent": "base",
+    "socket": "tracks",
+    "dx": 0,
+    "dy": 0,
+    "z": 1,
+    "edge": "shadow",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 459,
+      "y": 1,
+      "w": 28,
+      "h": 7,
+      "px": 14,
+      "py": 6
+     },
+     "roll1": {
+      "x": 488,
+      "y": 1,
+      "w": 28,
+      "h": 7,
+      "px": 14,
+      "py": 6
+     },
+     "roll2": {
+      "x": 517,
+      "y": 1,
+      "w": 28,
+      "h": 7,
+      "px": 14,
+      "py": 6
+     }
+    }
+   },
+   {
+    "name": "thighFar",
+    "parent": "base",
+    "socket": "thighFar",
+    "dx": 0,
+    "dy": 0,
+    "z": 2,
+    "edge": "shadow",
+    "sockets": {
+     "guard": {
+      "x": 0,
+      "y": -1,
+      "z": 1
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 916,
+      "y": 1,
+      "w": 7,
+      "h": 6,
+      "px": 3,
+      "py": 5
+     },
+     "bent": {
+      "x": 395,
+      "y": 32,
+      "w": 7,
+      "h": 3,
+      "px": 3,
+      "py": 2
+     }
+    }
+   },
+   {
+    "name": "thighNear",
+    "parent": "base",
+    "socket": "thighNear",
+    "dx": 0,
+    "dy": 0,
+    "z": 2,
+    "edge": "shadow",
+    "sockets": {
+     "guard": {
+      "x": 0,
+      "y": -1,
+      "z": 1
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 699,
+      "y": 1,
+      "w": 9,
+      "h": 7,
+      "px": 4,
+      "py": 6
+     },
+     "bent": {
+      "x": 272,
+      "y": 32,
+      "w": 9,
+      "h": 4,
+      "px": 4,
+      "py": 3
+     }
+    }
+   },
+   {
+    "name": "hips",
+    "parent": "base",
+    "socket": "hips",
+    "dx": 0,
+    "dy": 0,
+    "z": 3,
+    "edge": "shadow",
+    "sockets": {
+     "skirt": {
+      "x": 0,
+      "y": -2,
+      "z": 1
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 881,
+      "y": 1,
+      "w": 22,
+      "h": 6,
+      "px": 11,
+      "py": 5
+     }
+    }
+   },
+   {
+    "name": "torso",
+    "parent": "base",
+    "socket": "torso",
+    "dx": 0,
+    "dy": 0,
+    "z": 4,
+    "edge": "shadow",
+    "sockets": {
+     "canopy": {
+      "x": 1,
+      "y": -9,
+      "z": 2
+     },
+     "head": {
+      "x": 1,
+      "y": -16,
+      "z": 4
+     },
+     "shoulderFar": {
+      "x": -13,
+      "y": -14,
+      "z": -1
+     },
+     "shoulderNear": {
+      "x": 17,
+      "y": -10,
+      "z": 6
+     },
+     "back": {
+      "x": -3,
+      "y": -17,
+      "z": -10
+     },
+     "stacks": {
+      "x": -7,
+      "y": -18,
+      "z": -5
+     },
+     "flankFar": {
+      "x": -6,
+      "y": -8,
+      "z": 1
+     },
+     "flankNear": {
+      "x": 11,
+      "y": -9,
+      "z": 1
+     },
+     "pack": {
+      "x": -2,
+      "y": -20,
+      "z": -3
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 115,
+      "y": 1,
+      "w": 31,
+      "h": 21,
+      "px": 13,
+      "py": 20
+     }
+    }
+   },
+   {
+    "name": "blade",
+    "parent": "torso",
+    "socket": "back",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 351,
+      "y": 1,
+      "w": 24,
+      "h": 9,
+      "px": 12,
+      "py": 8
+     },
+     "side": {
+      "x": 147,
+      "y": 1,
+      "w": 8,
+      "h": 15,
+      "px": 3,
+      "py": 14
+     },
+     "edge": {
+      "x": 78,
+      "y": 32,
+      "w": 24,
+      "h": 4,
+      "px": 12,
+      "py": 2
+     }
+    }
+   },
+   {
+    "name": "stacks",
+    "parent": "torso",
+    "socket": "stacks",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 709,
+      "y": 1,
+      "w": 4,
+      "h": 7,
+      "px": 2,
+      "py": 6
+     }
+    }
+   },
+   {
+    "name": "head",
+    "parent": "torso",
+    "socket": "head",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {
+     "brow": {
+      "x": 0,
+      "y": -7,
+      "z": 1
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 320,
+      "y": 1,
+      "w": 12,
+      "h": 10,
+      "px": 6,
+      "py": 9
+     }
+    },
+    "glow": [
+     "#ffe68a",
+     "#fff7d0"
+    ]
+   },
+   {
+    "name": "canopy",
+    "parent": "torso",
+    "socket": "canopy",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "full",
+    "sockets": {
+     "face": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 165,
+      "y": 1,
+      "w": 16,
+      "h": 14,
+      "px": 8,
+      "py": 7
+     }
+    },
+    "glow": [
+     "#ffc83c",
+     "#ffe68a",
+     "#fff7d0"
+    ]
+   },
+   {
+    "name": "face",
+    "parent": "canopy",
+    "socket": "face",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "none",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 15,
+      "y": 32,
+      "w": 6,
+      "h": 6,
+      "px": 3,
+      "py": 3
+     },
+     "grit": {
+      "x": 22,
+      "y": 32,
+      "w": 6,
+      "h": 6,
+      "px": 3,
+      "py": 3
+     }
+    }
+   },
+   {
+    "name": "glint",
+    "parent": "canopy",
+    "socket": "face",
+    "dx": 0,
+    "dy": 0,
+    "z": 2,
+    "edge": "none",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 182,
+      "y": 1,
+      "w": 16,
+      "h": 14,
+      "px": 8,
+      "py": 7
+     }
+    },
+    "glow": "all"
+   },
+   {
+    "name": "capFar",
+    "parent": "torso",
+    "socket": "shoulderFar",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {
+     "pod": {
+      "x": 0,
+      "y": -5,
+      "z": 1
+     },
+     "drum": {
+      "x": 3,
+      "y": 8,
+      "z": 1
+     },
+     "guard": {
+      "x": 0,
+      "y": 4,
+      "z": 2
+     },
+     "arm": {
+      "x": 0,
+      "y": 6,
+      "z": 1
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 305,
+      "y": 1,
+      "w": 14,
+      "h": 11,
+      "px": 7,
+      "py": 5
+     }
+    }
+   },
+   {
+    "name": "capNear",
+    "parent": "torso",
+    "socket": "shoulderNear",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {
+     "pod": {
+      "x": 0,
+      "y": -6,
+      "z": 1
+     },
+     "drum": {
+      "x": 3,
+      "y": 9,
+      "z": 1
+     },
+     "guard": {
+      "x": 0,
+      "y": 5,
+      "z": 2
+     },
+     "arm": {
+      "x": 0,
+      "y": 7,
+      "z": 1
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 262,
+      "y": 1,
+      "w": 16,
+      "h": 12,
+      "px": 8,
+      "py": 6
+     }
+    }
+   },
+   {
+    "name": "drumFar",
+    "parent": "capFar",
+    "socket": "drum",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {
+     "muzzle": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 401,
+      "y": 1,
+      "w": 9,
+      "h": 9,
+      "px": 4,
+      "py": 4
+     },
+     "flash": {
+      "x": 411,
+      "y": 1,
+      "w": 9,
+      "h": 9,
+      "px": 4,
+      "py": 4
+     }
+    },
+    "glow": [
+     "#ffe68a",
+     "#fff7d0"
+    ]
+   },
+   {
+    "name": "drumNear",
+    "parent": "capNear",
+    "socket": "drum",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {
+     "muzzle": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 279,
+      "y": 1,
+      "w": 12,
+      "h": 12,
+      "px": 6,
+      "py": 6
+     },
+     "flash": {
+      "x": 292,
+      "y": 1,
+      "w": 12,
+      "h": 12,
+      "px": 6,
+      "py": 6
+     }
+    },
+    "glow": [
+     "#ffe68a",
+     "#fff7d0"
+    ]
+   },
+   {
+    "name": "shards",
+    "parent": "base",
+    "socket": "fx",
+    "dx": 0,
+    "dy": 0,
+    "z": 20,
+    "edge": "none",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 1,
+      "y": 1,
+      "w": 56,
+      "h": 30,
+      "px": 28,
+      "py": 28
+     },
+     "s2": {
+      "x": 58,
+      "y": 1,
+      "w": 56,
+      "h": 30,
+      "px": 28,
+      "py": 28
+     }
+    }
+   }
+  ],
+  "vehicle": [
+   {
+    "name": "base",
+    "parent": null,
+    "socket": null,
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "none",
+    "sockets": {
+     "trackFar": {
+      "x": -2,
+      "y": -3
+     },
+     "trackNear": {
+      "x": 0,
+      "y": 0
+     },
+     "hull": {
+      "x": -2,
+      "y": -5
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 568,
+      "y": 32,
+      "w": 1,
+      "h": 1,
+      "px": 0,
+      "py": 0
+     }
+    }
+   },
+   {
+    "name": "trackFar",
+    "parent": "base",
+    "socket": "trackFar",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 800,
+      "y": 1,
+      "w": 26,
+      "h": 6,
+      "px": 13,
+      "py": 5
+     },
+     "roll1": {
+      "x": 827,
+      "y": 1,
+      "w": 26,
+      "h": 6,
+      "px": 13,
+      "py": 5
+     },
+     "roll2": {
+      "x": 854,
+      "y": 1,
+      "w": 26,
+      "h": 6,
+      "px": 13,
+      "py": 5
+     }
+    }
+   },
+   {
+    "name": "trackNear",
+    "parent": "base",
+    "socket": "trackNear",
+    "dx": 0,
+    "dy": 0,
+    "z": 1,
+    "edge": "shadow",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 546,
+      "y": 1,
+      "w": 28,
+      "h": 7,
+      "px": 14,
+      "py": 6
+     },
+     "roll1": {
+      "x": 575,
+      "y": 1,
+      "w": 28,
+      "h": 7,
+      "px": 14,
+      "py": 6
+     },
+     "roll2": {
+      "x": 604,
+      "y": 1,
+      "w": 28,
+      "h": 7,
+      "px": 14,
+      "py": 6
+     }
+    }
+   },
+   {
+    "name": "hull",
+    "parent": "base",
+    "socket": "hull",
+    "dx": 0,
+    "dy": 0,
+    "z": 3,
+    "edge": "shadow",
+    "sockets": {
+     "canopy": {
+      "x": 3,
+      "y": -7,
+      "z": 3
+     },
+     "stacks": {
+      "x": -9,
+      "y": -10,
+      "z": -1
+     },
+     "bladeArm": {
+      "x": 14,
+      "y": -4,
+      "z": 2
+     },
+     "lift": {
+      "x": -4,
+      "y": -10,
+      "z": 5
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 233,
+      "y": 1,
+      "w": 28,
+      "h": 12,
+      "px": 14,
+      "py": 11
+     }
+    }
+   },
+   {
+    "name": "stacks",
+    "parent": "hull",
+    "socket": "stacks",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 714,
+      "y": 1,
+      "w": 4,
+      "h": 7,
+      "px": 2,
+      "py": 6
+     }
+    }
+   },
+   {
+    "name": "canopy",
+    "parent": "hull",
+    "socket": "canopy",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "full",
+    "sockets": {
+     "face": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 199,
+      "y": 1,
+      "w": 16,
+      "h": 14,
+      "px": 8,
+      "py": 7
+     }
+    },
+    "glow": [
+     "#ffc83c",
+     "#ffe68a",
+     "#fff7d0"
+    ]
+   },
+   {
+    "name": "face",
+    "parent": "canopy",
+    "socket": "face",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "none",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 29,
+      "y": 32,
+      "w": 6,
+      "h": 6,
+      "px": 3,
+      "py": 3
+     },
+     "grit": {
+      "x": 36,
+      "y": 32,
+      "w": 6,
+      "h": 6,
+      "px": 3,
+      "py": 3
+     }
+    }
+   },
+   {
+    "name": "glint",
+    "parent": "hull",
+    "socket": "canopy",
+    "dx": 0,
+    "dy": 0,
+    "z": 2,
+    "edge": "none",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 216,
+      "y": 1,
+      "w": 16,
+      "h": 14,
+      "px": 8,
+      "py": 7
+     }
+    },
+    "glow": "all"
+   },
+   {
+    "name": "bladeArm",
+    "parent": "hull",
+    "socket": "bladeArm",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {
+     "blade": {
+      "x": 7,
+      "y": 11,
+      "z": 1
+     }
+    },
+    "frames": {
+     "default": {
+      "x": 385,
+      "y": 32,
+      "w": 9,
+      "h": 3,
+      "px": 0,
+      "py": 1
+     }
+    }
+   },
+   {
+    "name": "blade",
+    "parent": "bladeArm",
+    "socket": "blade",
+    "dx": 0,
+    "dy": 0,
+    "z": 0,
+    "edge": "shadow",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 376,
+      "y": 1,
+      "w": 24,
+      "h": 9,
+      "px": 12,
+      "py": 8
+     },
+     "side": {
+      "x": 156,
+      "y": 1,
+      "w": 8,
+      "h": 15,
+      "px": 3,
+      "py": 14
+     },
+     "edge": {
+      "x": 103,
+      "y": 32,
+      "w": 24,
+      "h": 4,
+      "px": 12,
+      "py": 2
+     }
+    }
+   },
+   {
+    "name": "puff",
+    "parent": "hull",
+    "socket": "stacks",
+    "dx": -2,
+    "dy": -7,
+    "z": 0,
+    "edge": "none",
+    "sockets": {},
+    "frames": {
+     "default": {
+      "x": 449,
+      "y": 1,
+      "w": 9,
+      "h": 8,
+      "px": 4,
+      "py": 7
+     },
+     "big": {
+      "x": 439,
+      "y": 1,
+      "w": 9,
+      "h": 8,
+      "px": 4,
+      "py": 7
+     }
+    }
+   }
+  ]
+ },
+ "upgrades": {
+  "rocketPods": {
+   "1": {
+    "robot": [
+     {
+      "name": "podNear",
+      "parent": "capNear",
+      "socket": "pod",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 282,
+        "y": 32,
+        "w": 7,
+        "h": 4,
+        "px": 3,
+        "py": 3
+       },
+       "fired": {
+        "x": 290,
+        "y": 32,
+        "w": 7,
+        "h": 4,
+        "px": 3,
+        "py": 3
+       }
+      }
+     }
+    ],
+    "vehicle": [
+     {
+      "name": "podNear",
+      "parent": "hull",
+      "socket": "lift",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 298,
+        "y": 32,
+        "w": 7,
+        "h": 4,
+        "px": 3,
+        "py": 3
+       },
+       "fired": {
+        "x": 306,
+        "y": 32,
+        "w": 7,
+        "h": 4,
+        "px": 3,
+        "py": 3
+       }
+      }
+     }
+    ]
+   },
+   "2": {
+    "robot": [
+     {
+      "name": "podNear",
+      "parent": "capNear",
+      "socket": "pod",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 330,
+        "y": 32,
+        "w": 7,
+        "h": 4,
+        "px": 3,
+        "py": 3
+       },
+       "fired": {
+        "x": 338,
+        "y": 32,
+        "w": 7,
+        "h": 4,
+        "px": 3,
+        "py": 3
+       }
+      }
+     },
+     {
+      "name": "podFar",
+      "parent": "capFar",
+      "socket": "pod",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 314,
+        "y": 32,
+        "w": 7,
+        "h": 4,
+        "px": 3,
+        "py": 3
+       },
+       "fired": {
+        "x": 322,
+        "y": 32,
+        "w": 7,
+        "h": 4,
+        "px": 3,
+        "py": 3
+       }
+      }
+     }
+    ],
+    "vehicle": [
+     {
+      "name": "podNear",
+      "parent": "hull",
+      "socket": "lift",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 346,
+        "y": 32,
+        "w": 7,
+        "h": 4,
+        "px": 3,
+        "py": 3
+       },
+       "fired": {
+        "x": 354,
+        "y": 32,
+        "w": 7,
+        "h": 4,
+        "px": 3,
+        "py": 3
+       }
+      }
+     }
+    ]
+   },
+   "3": {
+    "robot": [
+     {
+      "name": "podNear",
+      "parent": "capNear",
+      "socket": "pod",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 162,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       },
+       "fired": {
+        "x": 173,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       }
+      }
+     },
+     {
+      "name": "podFar",
+      "parent": "capFar",
+      "socket": "pod",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 140,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       },
+       "fired": {
+        "x": 151,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       }
+      }
+     }
+    ],
+    "vehicle": [
+     {
+      "name": "podNear",
+      "parent": "hull",
+      "socket": "lift",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 184,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       },
+       "fired": {
+        "x": 195,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       }
+      }
+     }
+    ]
+   },
+   "4": {
+    "robot": [
+     {
+      "name": "podNear",
+      "parent": "capNear",
+      "socket": "pod",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 228,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       },
+       "fired": {
+        "x": 239,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       }
+      }
+     },
+     {
+      "name": "podFar",
+      "parent": "capFar",
+      "socket": "pod",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 206,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       },
+       "fired": {
+        "x": 217,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       }
+      }
+     }
+    ],
+    "vehicle": [
+     {
+      "name": "podNear",
+      "parent": "hull",
+      "socket": "lift",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 250,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       },
+       "fired": {
+        "x": 261,
+        "y": 32,
+        "w": 10,
+        "h": 4,
+        "px": 5,
+        "py": 3
+       }
+      }
+     }
+    ]
+   },
+   "5": {
+    "robot": [
+     {
+      "name": "podNear",
+      "parent": "capNear",
+      "socket": "pod",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 655,
+        "y": 1,
+        "w": 10,
+        "h": 7,
+        "px": 5,
+        "py": 6
+       },
+       "fired": {
+        "x": 666,
+        "y": 1,
+        "w": 10,
+        "h": 7,
+        "px": 5,
+        "py": 6
+       }
+      }
+     },
+     {
+      "name": "podFar",
+      "parent": "capFar",
+      "socket": "pod",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 633,
+        "y": 1,
+        "w": 10,
+        "h": 7,
+        "px": 5,
+        "py": 6
+       },
+       "fired": {
+        "x": 644,
+        "y": 1,
+        "w": 10,
+        "h": 7,
+        "px": 5,
+        "py": 6
+       }
+      }
+     }
+    ],
+    "vehicle": [
+     {
+      "name": "podNear",
+      "parent": "hull",
+      "socket": "lift",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 677,
+        "y": 1,
+        "w": 10,
+        "h": 7,
+        "px": 5,
+        "py": 6
+       },
+       "fired": {
+        "x": 688,
+        "y": 1,
+        "w": 10,
+        "h": 7,
+        "px": 5,
+        "py": 6
+       }
+      }
+     }
+    ]
+   }
+  },
+  "armour": {
+   "1": {
+    "robot": [
+     {
+      "name": "guardFar",
+      "parent": "thighFar",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 443,
+        "y": 32,
+        "w": 6,
+        "h": 3,
+        "px": 3,
+        "py": 2
+       }
+      }
+     },
+     {
+      "name": "guardNear",
+      "parent": "thighNear",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 403,
+        "y": 32,
+        "w": 7,
+        "h": 3,
+        "px": 3,
+        "py": 2
+       }
+      }
+     }
+    ],
+    "vehicle": []
+   },
+   "2": {
+    "robot": [
+     {
+      "name": "guardFar",
+      "parent": "thighFar",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 450,
+        "y": 32,
+        "w": 6,
+        "h": 3,
+        "px": 3,
+        "py": 2
+       }
+      }
+     },
+     {
+      "name": "guardNear",
+      "parent": "thighNear",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 411,
+        "y": 32,
+        "w": 7,
+        "h": 3,
+        "px": 3,
+        "py": 2
+       }
+      }
+     }
+    ],
+    "vehicle": []
+   },
+   "3": {
+    "robot": [
+     {
+      "name": "guardFar",
+      "parent": "thighFar",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 457,
+        "y": 32,
+        "w": 6,
+        "h": 3,
+        "px": 3,
+        "py": 2
+       }
+      }
+     },
+     {
+      "name": "guardNear",
+      "parent": "thighNear",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 419,
+        "y": 32,
+        "w": 7,
+        "h": 3,
+        "px": 3,
+        "py": 2
+       }
+      }
+     },
+     {
+      "name": "flankFar",
+      "parent": "torso",
+      "socket": "flankFar",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 421,
+        "y": 1,
+        "w": 5,
+        "h": 9,
+        "px": 2,
+        "py": 4
+       }
+      }
+     },
+     {
+      "name": "flankNear",
+      "parent": "torso",
+      "socket": "flankNear",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 333,
+        "y": 1,
+        "w": 5,
+        "h": 10,
+        "px": 2,
+        "py": 5
+       }
+      }
+     },
+     {
+      "name": "lipFar",
+      "parent": "capFar",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 523,
+        "y": 32,
+        "w": 11,
+        "h": 2,
+        "px": 5,
+        "py": 1
+       }
+      }
+     },
+     {
+      "name": "lipNear",
+      "parent": "capNear",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 478,
+        "y": 32,
+        "w": 14,
+        "h": 2,
+        "px": 7,
+        "py": 1
+       }
+      }
+     }
+    ],
+    "vehicle": []
+   },
+   "4": {
+    "robot": [
+     {
+      "name": "guardFar",
+      "parent": "thighFar",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 464,
+        "y": 32,
+        "w": 6,
+        "h": 3,
+        "px": 3,
+        "py": 2
+       }
+      }
+     },
+     {
+      "name": "guardNear",
+      "parent": "thighNear",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 427,
+        "y": 32,
+        "w": 7,
+        "h": 3,
+        "px": 3,
+        "py": 2
+       }
+      }
+     },
+     {
+      "name": "flankFar",
+      "parent": "torso",
+      "socket": "flankFar",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 427,
+        "y": 1,
+        "w": 5,
+        "h": 9,
+        "px": 2,
+        "py": 4
+       }
+      }
+     },
+     {
+      "name": "flankNear",
+      "parent": "torso",
+      "socket": "flankNear",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 339,
+        "y": 1,
+        "w": 5,
+        "h": 10,
+        "px": 2,
+        "py": 5
+       }
+      }
+     },
+     {
+      "name": "lipFar",
+      "parent": "capFar",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 535,
+        "y": 32,
+        "w": 11,
+        "h": 2,
+        "px": 5,
+        "py": 1
+       }
+      }
+     },
+     {
+      "name": "lipNear",
+      "parent": "capNear",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 493,
+        "y": 32,
+        "w": 14,
+        "h": 2,
+        "px": 7,
+        "py": 1
+       }
+      }
+     }
+    ],
+    "vehicle": []
+   },
+   "5": {
+    "robot": [
+     {
+      "name": "guardFar",
+      "parent": "thighFar",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 471,
+        "y": 32,
+        "w": 6,
+        "h": 3,
+        "px": 3,
+        "py": 2
+       }
+      }
+     },
+     {
+      "name": "guardNear",
+      "parent": "thighNear",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 435,
+        "y": 32,
+        "w": 7,
+        "h": 3,
+        "px": 3,
+        "py": 2
+       }
+      }
+     },
+     {
+      "name": "flankFar",
+      "parent": "torso",
+      "socket": "flankFar",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 433,
+        "y": 1,
+        "w": 5,
+        "h": 9,
+        "px": 2,
+        "py": 4
+       }
+      }
+     },
+     {
+      "name": "flankNear",
+      "parent": "torso",
+      "socket": "flankNear",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 345,
+        "y": 1,
+        "w": 5,
+        "h": 10,
+        "px": 2,
+        "py": 5
+       }
+      }
+     },
+     {
+      "name": "lipFar",
+      "parent": "capFar",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 547,
+        "y": 32,
+        "w": 11,
+        "h": 2,
+        "px": 5,
+        "py": 1
+       }
+      }
+     },
+     {
+      "name": "lipNear",
+      "parent": "capNear",
+      "socket": "guard",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 508,
+        "y": 32,
+        "w": 14,
+        "h": 2,
+        "px": 7,
+        "py": 1
+       }
+      }
+     },
+     {
+      "name": "armSkirt",
+      "parent": "hips",
+      "socket": "skirt",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 43,
+        "y": 32,
+        "w": 24,
+        "h": 5,
+        "px": 12,
+        "py": 1
+       }
+      }
+     },
+     {
+      "name": "armBelt",
+      "parent": "hips",
+      "socket": null,
+      "dx": 0,
+      "dy": -2,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 362,
+        "y": 32,
+        "w": 12,
+        "h": 3,
+        "px": 6,
+        "py": 1
+       }
+      }
+     },
+     {
+      "name": "armBrow",
+      "parent": "head",
+      "socket": "brow",
+      "dx": 0,
+      "dy": 0,
+      "z": 0,
+      "edge": "shadow",
+      "sockets": {},
+      "frames": {
+       "default": {
+        "x": 559,
+        "y": 32,
+        "w": 8,
+        "h": 2,
+        "px": 4,
+        "py": 1
+       }
+      }
+     }
+    ],
+    "vehicle": []
+   }
+  }
+ },
+ "pilots": {
+  "pip": {
+   "default": {
+    "x": 994,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   },
+   "grit": {
+    "x": 1001,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   }
+  },
+  "juno": {
+   "default": {
+    "x": 952,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   },
+   "grit": {
+    "x": 959,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   }
+  },
+  "bolt": {
+   "default": {
+    "x": 924,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   },
+   "grit": {
+    "x": 931,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   }
+  },
+  "moss": {
+   "default": {
+    "x": 980,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   },
+   "grit": {
+    "x": 987,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   }
+  },
+  "zip": {
+   "default": {
+    "x": 1,
+    "y": 32,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   },
+   "grit": {
+    "x": 8,
+    "y": 32,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   }
+  },
+  "kiko": {
+   "default": {
+    "x": 966,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   },
+   "grit": {
+    "x": 973,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   }
+  },
+  "tock": {
+   "default": {
+    "x": 1008,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   },
+   "grit": {
+    "x": 1015,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   }
+  },
+  "goldie": {
+   "default": {
+    "x": 938,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   },
+   "grit": {
+    "x": 945,
+    "y": 1,
+    "w": 6,
+    "h": 6,
+    "px": 3,
+    "py": 3
+   }
+  }
+ },
+ "anims": {
+  "idle": {
+   "fps": 4,
+   "loop": true,
+   "frames": [
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 0
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 0
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 1
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 1
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 1
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 1
+      },
+      "capNear": {
+       "dy": 1
+      },
+      "capFar": {
+       "dy": 1
+      },
+      "drumNear": {
+       "dx": 1
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 0
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 0
+      },
+      "capNear": {
+       "dy": 1
+      },
+      "capFar": {
+       "dy": 1
+      }
+     }
+    }
+   ]
+  },
+  "walk": {
+   "fps": 10,
+   "loop": true,
+   "frames": [
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 1
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 1
+      },
+      "footNear": {
+       "dx": 3
+      },
+      "thighNear": {
+       "dx": 3
+      },
+      "footFar": {
+       "dx": -3
+      },
+      "thighFar": {
+       "dx": -3
+      },
+      "capNear": {
+       "dy": 1
+      },
+      "capFar": {
+       "dy": -1
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 0
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 0
+      },
+      "footNear": {
+       "dx": 2
+      },
+      "thighNear": {
+       "dx": 2
+      },
+      "footFar": {
+       "dx": -2,
+       "dy": -3,
+       "frame": "bent"
+      },
+      "thighFar": {
+       "dx": -2,
+       "dy": -2
+      },
+      "capNear": {
+       "dy": 1
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": -1
+      },
+      "hips": {
+       "dx": 0,
+       "dy": -1
+      },
+      "footNear": {
+       "dx": 0
+      },
+      "thighNear": {
+       "dx": 0
+      },
+      "footFar": {
+       "dx": 1,
+       "dy": -2
+      },
+      "thighFar": {
+       "dx": 1,
+       "dy": -2
+      },
+      "capFar": {
+       "dy": -1
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 1
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 1
+      },
+      "footFar": {
+       "dx": 3
+      },
+      "thighFar": {
+       "dx": 3
+      },
+      "footNear": {
+       "dx": -3
+      },
+      "thighNear": {
+       "dx": -3
+      },
+      "capNear": {
+       "dy": -1
+      },
+      "capFar": {
+       "dy": 1
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 0
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 0
+      },
+      "footFar": {
+       "dx": 2
+      },
+      "thighFar": {
+       "dx": 2
+      },
+      "footNear": {
+       "dx": -2,
+       "dy": -3,
+       "frame": "bent"
+      },
+      "thighNear": {
+       "dx": -2,
+       "dy": -2
+      },
+      "capFar": {
+       "dy": 1
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": -1
+      },
+      "hips": {
+       "dx": 0,
+       "dy": -1
+      },
+      "footFar": {
+       "dx": 0
+      },
+      "thighFar": {
+       "dx": 0
+      },
+      "footNear": {
+       "dx": 1,
+       "dy": -2
+      },
+      "thighNear": {
+       "dx": 1,
+       "dy": -2
+      },
+      "capNear": {
+       "dy": -1
+      }
+     }
+    }
+   ]
+  },
+  "fire": {
+   "fps": 12,
+   "loop": false,
+   "frames": [
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 1
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 1
+      },
+      "drumNear": {
+       "frame": "flash",
+       "dx": -2,
+       "dy": 1
+      },
+      "capNear": {
+       "dx": -1,
+       "dy": 1
+      },
+      "podNear": {
+       "frame": "fired"
+      },
+      "podFar": {
+       "frame": "fired"
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 0
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 0
+      },
+      "drumNear": {
+       "dx": -1
+      },
+      "capNear": {
+       "dy": 1
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": -1,
+       "dy": 1
+      },
+      "hips": {
+       "dx": -1,
+       "dy": 1
+      },
+      "drumFar": {
+       "frame": "flash",
+       "dx": -2,
+       "dy": 1
+      },
+      "capFar": {
+       "dx": -1,
+       "dy": 1
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 0
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 0
+      },
+      "drumFar": {
+       "dx": -1
+      }
+     }
+    }
+   ]
+  },
+  "hit": {
+   "fps": 12,
+   "loop": false,
+   "frames": [
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      }
+     },
+     "post": {
+      "op": "flash",
+      "color": "#fffaf0"
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": -2,
+       "dy": 1
+      },
+      "hips": {
+       "dx": -2,
+       "dy": 1
+      },
+      "head": {
+       "dx": -1
+      },
+      "capNear": {
+       "dx": -1
+      },
+      "capFar": {
+       "dx": -1
+      },
+      "face": {
+       "frame": "grit"
+      }
+     }
+    }
+   ]
+  },
+  "slam": {
+   "fps": 12,
+   "loop": false,
+   "frames": [
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": -3,
+       "dy": 1
+      },
+      "hips": {
+       "dx": -3,
+       "dy": 1
+      },
+      "capNear": {
+       "dy": -2,
+       "dx": -1
+      },
+      "capFar": {
+       "dy": -2,
+       "dx": -1
+      },
+      "head": {
+       "dy": -1
+      },
+      "footNear": {
+       "dx": -2
+      },
+      "thighNear": {
+       "dx": -2
+      }
+     },
+     "post": {
+      "op": "squash",
+      "sx": 0.96,
+      "sy": 1
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 4,
+       "dy": -2
+      },
+      "hips": {
+       "dx": 4,
+       "dy": -2
+      },
+      "capNear": {
+       "dx": 3,
+       "dy": -1
+      },
+      "capFar": {
+       "dx": 2,
+       "dy": -1
+      },
+      "drumNear": {
+       "dx": 2
+      },
+      "drumFar": {
+       "dx": 2
+      },
+      "footFar": {
+       "dy": -2
+      },
+      "thighFar": {
+       "dy": -2
+      },
+      "face": {
+       "frame": "grit"
+      }
+     },
+     "post": {
+      "op": "squash",
+      "sx": 1.1,
+      "sy": 0.94
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": false
+      },
+      "torso": {
+       "dx": 3,
+       "dy": 4
+      },
+      "hips": {
+       "dx": 3,
+       "dy": 4
+      },
+      "capNear": {
+       "dx": 4,
+       "dy": 3
+      },
+      "capFar": {
+       "dx": -1,
+       "dy": 3
+      },
+      "drumNear": {
+       "dx": 1,
+       "dy": 1
+      },
+      "drumFar": {
+       "dx": -1,
+       "dy": 1
+      },
+      "head": {
+       "dy": 1
+      },
+      "footNear": {
+       "dx": 5,
+       "frame": "bent"
+      },
+      "thighNear": {
+       "dx": 4,
+       "frame": "bent"
+      },
+      "footFar": {
+       "dx": -4,
+       "frame": "bent"
+      },
+      "thighFar": {
+       "dx": -3,
+       "frame": "bent"
+      },
+      "face": {
+       "frame": "grit"
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": false,
+       "frame": "s2"
+      },
+      "torso": {
+       "dx": 2,
+       "dy": 2
+      },
+      "hips": {
+       "dx": 2,
+       "dy": 2
+      },
+      "capNear": {
+       "dx": 1,
+       "dy": 1
+      },
+      "capFar": {
+       "dx": 1,
+       "dy": 1
+      },
+      "footNear": {
+       "dx": 3
+      },
+      "thighNear": {
+       "dx": 2
+      },
+      "footFar": {
+       "dx": -2
+      },
+      "thighFar": {
+       "dx": -1
+      },
+      "face": {
+       "frame": "grit"
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 1
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 1
+      },
+      "capNear": {
+       "dy": 1
+      },
+      "capFar": {
+       "dy": 1
+      }
+     }
+    }
+   ]
+  },
+  "morph": {
+   "fps": 14,
+   "loop": false,
+   "frames": [
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": true
+      },
+      "trackNear": {
+       "hidden": true
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 3
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 3
+      },
+      "head": {
+       "dy": 1
+      },
+      "footFar": {
+       "frame": "bent"
+      },
+      "footNear": {
+       "frame": "bent"
+      },
+      "thighFar": {
+       "frame": "bent"
+      },
+      "thighNear": {
+       "frame": "bent"
+      },
+      "capNear": {
+       "dy": 1
+      },
+      "capFar": {
+       "dy": 1
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": false
+      },
+      "trackNear": {
+       "hidden": false
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 7
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 7
+      },
+      "head": {
+       "dy": 2
+      },
+      "capNear": {
+       "dx": -3,
+       "dy": 5
+      },
+      "capFar": {
+       "dx": 3,
+       "dy": 5
+      },
+      "drumNear": {
+       "dy": -4,
+       "dx": -1
+      },
+      "drumFar": {
+       "dy": -3
+      },
+      "footFar": {
+       "hidden": true
+      },
+      "footNear": {
+       "hidden": true
+      },
+      "thighFar": {
+       "hidden": true
+      },
+      "thighNear": {
+       "hidden": true
+      },
+      "blade": {
+       "frame": "edge",
+       "dy": -5,
+       "z": 40
+      }
+     }
+    },
+    {
+     "rig": "robot",
+     "pose": {
+      "trackFar": {
+       "hidden": false
+      },
+      "trackNear": {
+       "hidden": false
+      },
+      "shards": {
+       "hidden": true
+      },
+      "torso": {
+       "dx": 0,
+       "dy": 9
+      },
+      "hips": {
+       "dx": 0,
+       "dy": 9
+      },
+      "head": {
+       "dy": 3
+      },
+      "capNear": {
+       "dx": -5,
+       "dy": 7
+      },
+      "capFar": {
+       "dx": 5,
+       "dy": 7
+      },
+      "drumNear": {
+       "hidden": true
+      },
+      "drumFar": {
+       "hidden": true
+      },
+      "footFar": {
+       "hidden": true
+      },
+      "footNear": {
+       "hidden": true
+      },
+      "thighFar": {
+       "hidden": true
+      },
+      "thighNear": {
+       "hidden": true
+      },
+      "blade": {
+       "frame": "edge",
+       "dx": 10,
+       "dy": 2,
+       "z": 40
+      }
+     }
+    },
+    {
+     "rig": "vehicle",
+     "pose": {
+      "blade": {
+       "frame": "side",
+       "dy": -8
+      },
+      "puff": {
+       "hidden": true
+      },
+      "bladeArm": {
+       "dy": -3
+      },
+      "hull": {
+       "dy": -1
+      }
+     }
+    },
+    {
+     "rig": "vehicle",
+     "pose": {
+      "blade": {
+       "frame": "side",
+       "dy": -3
+      },
+      "puff": {
+       "hidden": true
+      },
+      "bladeArm": {
+       "dy": -1
+      }
+     }
+    },
+    {
+     "rig": "vehicle",
+     "pose": {
+      "blade": {
+       "frame": "side",
+       "dy": 1
+      },
+      "puff": {
+       "hidden": true
+      },
+      "hull": {
+       "dy": 1
+      }
+     }
+    }
+   ]
+  },
+  "drive": {
+   "fps": 10,
+   "loop": true,
+   "frames": [
+    {
+     "rig": "vehicle",
+     "pose": {
+      "blade": {
+       "frame": "side"
+      },
+      "puff": {
+       "hidden": false
+      },
+      "trackNear": {
+       "frame": "default"
+      },
+      "trackFar": {
+       "frame": "default"
+      }
+     }
+    },
+    {
+     "rig": "vehicle",
+     "pose": {
+      "blade": {
+       "frame": "side",
+       "dy": -1
+      },
+      "puff": {
+       "hidden": false,
+       "frame": "big",
+       "dy": -2,
+       "dx": -1
+      },
+      "trackNear": {
+       "frame": "roll1"
+      },
+      "trackFar": {
+       "frame": "roll1"
+      },
+      "hull": {
+       "dy": -1
+      }
+     }
+    },
+    {
+     "rig": "vehicle",
+     "pose": {
+      "blade": {
+       "frame": "side"
+      },
+      "puff": {
+       "hidden": false,
+       "frame": "big",
+       "dy": -4,
+       "dx": -3
+      },
+      "trackNear": {
+       "frame": "roll2"
+      },
+      "trackFar": {
+       "frame": "roll2"
+      }
+     }
+    },
+    {
+     "rig": "vehicle",
+     "pose": {
+      "blade": {
+       "frame": "side",
+       "dy": 1
+      },
+      "puff": {
+       "hidden": true
+      },
+      "trackNear": {
+       "frame": "default"
+      },
+      "trackFar": {
+       "frame": "default"
+      }
+     }
+    }
+   ]
+  }
+ }
+}

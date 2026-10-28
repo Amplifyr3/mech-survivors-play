@@ -1,0 +1,147 @@
+{
+ "group": "game-landmarks1",
+ "image": "game-landmarks1.png",
+ "size": {
+  "w": 1008,
+  "h": 228
+ },
+ "frames": {
+  "lm1_crane_netted_0": {
+   "x": 135,
+   "y": 1,
+   "w": 95,
+   "h": 97,
+   "ax": 0.4947,
+   "ay": 1
+  },
+  "lm1_crane_netted_1": {
+   "x": 231,
+   "y": 1,
+   "w": 95,
+   "h": 97,
+   "ax": 0.4947,
+   "ay": 1
+  },
+  "lm1_great_lantern_drained_0": {
+   "x": 1,
+   "y": 1,
+   "w": 66,
+   "h": 150,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_0": {
+   "x": 782,
+   "y": 1,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_1": {
+   "x": 895,
+   "y": 1,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_2": {
+   "x": 1,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_3": {
+   "x": 114,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_0": {
+   "x": 227,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_1": {
+   "x": 340,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_2": {
+   "x": 453,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_3": {
+   "x": 566,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm_crane": {
+   "x": 327,
+   "y": 1,
+   "w": 92,
+   "h": 97,
+   "ax": 0.5109,
+   "ay": 1
+  },
+  "lm_giant": {
+   "x": 577,
+   "y": 1,
+   "w": 204,
+   "h": 79,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm_granary": {
+   "x": 420,
+   "y": 1,
+   "w": 76,
+   "h": 88,
+   "ax": 0.5132,
+   "ay": 1
+  },
+  "lm_great_lantern": {
+   "x": 68,
+   "y": 1,
+   "w": 66,
+   "h": 150,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm_stage": {
+   "x": 497,
+   "y": 1,
+   "w": 79,
+   "h": 82,
+   "ax": 0.481,
+   "ay": 1
+  },
+  "lm_watermill": {
+   "x": 679,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  }
+ },
+ "anims": {}
+}

@@ -1,0 +1,194 @@
+{
+ "group": "emissive-landmarks1",
+ "image": "emissive-landmarks1.png",
+ "size": {
+  "w": 1009,
+  "h": 308
+ },
+ "frames": {
+  "gnd_rim_drop": {
+   "x": 227,
+   "y": 232,
+   "w": 32,
+   "h": 3,
+   "ax": 0,
+   "ay": 0
+  },
+  "gnd_rim_light": {
+   "x": 260,
+   "y": 232,
+   "w": 32,
+   "h": 2,
+   "ax": 0,
+   "ay": 0
+  },
+  "lm1_crane_empty_0": {
+   "x": 394,
+   "y": 1,
+   "w": 92,
+   "h": 97,
+   "ax": 0.5109,
+   "ay": 1
+  },
+  "lm1_crane_netted_0": {
+   "x": 202,
+   "y": 1,
+   "w": 95,
+   "h": 97,
+   "ax": 0.4947,
+   "ay": 1
+  },
+  "lm1_crane_netted_1": {
+   "x": 298,
+   "y": 1,
+   "w": 95,
+   "h": 97,
+   "ax": 0.4947,
+   "ay": 1
+  },
+  "lm1_giant_sleep_0": {
+   "x": 804,
+   "y": 1,
+   "w": 204,
+   "h": 79,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_giant_sleep_1": {
+   "x": 1,
+   "y": 152,
+   "w": 204,
+   "h": 79,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_granary_idle_0": {
+   "x": 487,
+   "y": 1,
+   "w": 76,
+   "h": 88,
+   "ax": 0.5132,
+   "ay": 1
+  },
+  "lm1_great_lantern_drained_0": {
+   "x": 1,
+   "y": 1,
+   "w": 66,
+   "h": 150,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_great_lantern_lit_0": {
+   "x": 68,
+   "y": 1,
+   "w": 66,
+   "h": 150,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_great_lantern_lit_1": {
+   "x": 135,
+   "y": 1,
+   "w": 66,
+   "h": 150,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_stage_dim_0": {
+   "x": 564,
+   "y": 1,
+   "w": 79,
+   "h": 82,
+   "ax": 0.481,
+   "ay": 1
+  },
+  "lm1_stage_lit_0": {
+   "x": 644,
+   "y": 1,
+   "w": 79,
+   "h": 82,
+   "ax": 0.481,
+   "ay": 1
+  },
+  "lm1_stage_lit_1": {
+   "x": 724,
+   "y": 1,
+   "w": 79,
+   "h": 82,
+   "ax": 0.481,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_0": {
+   "x": 206,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_1": {
+   "x": 319,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_2": {
+   "x": 432,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_3": {
+   "x": 545,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_still_0": {
+   "x": 658,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_0": {
+   "x": 771,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_1": {
+   "x": 884,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_2": {
+   "x": 1,
+   "y": 232,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_3": {
+   "x": 114,
+   "y": 232,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  }
+ }
+}

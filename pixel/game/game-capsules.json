@@ -1,0 +1,235 @@
+{
+ "group": "game-capsules",
+ "image": "game-capsules.png",
+ "size": {
+  "w": 581,
+  "h": 31
+ },
+ "frames": {
+  "capsule_bronze_burst_0": {
+   "x": 133,
+   "y": 1,
+   "w": 26,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.0345
+  },
+  "capsule_bronze_burst_1": {
+   "x": 1,
+   "y": 1,
+   "w": 32,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.0345
+  },
+  "capsule_bronze_crack_0": {
+   "x": 309,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_bronze_crack_1": {
+   "x": 241,
+   "y": 1,
+   "w": 16,
+   "h": 21,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_bronze_wobble_0": {
+   "x": 326,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5625,
+   "ay": 1
+  },
+  "capsule_bronze_wobble_1": {
+   "x": 343,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.4375,
+   "ay": 1
+  },
+  "capsule_common": {
+   "x": 360,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_epic": {
+   "x": 377,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_gold_burst_0": {
+   "x": 160,
+   "y": 1,
+   "w": 26,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.0345
+  },
+  "capsule_gold_burst_1": {
+   "x": 34,
+   "y": 1,
+   "w": 32,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.0345
+  },
+  "capsule_gold_crack_0": {
+   "x": 394,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_gold_crack_1": {
+   "x": 258,
+   "y": 1,
+   "w": 16,
+   "h": 21,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_gold_wobble_0": {
+   "x": 411,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5625,
+   "ay": 1
+  },
+  "capsule_gold_wobble_1": {
+   "x": 428,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.4375,
+   "ay": 1
+  },
+  "capsule_legendary": {
+   "x": 445,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_pearl_burst_0": {
+   "x": 187,
+   "y": 1,
+   "w": 26,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.0345
+  },
+  "capsule_pearl_burst_1": {
+   "x": 67,
+   "y": 1,
+   "w": 32,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.0345
+  },
+  "capsule_pearl_crack_0": {
+   "x": 462,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_pearl_crack_1": {
+   "x": 275,
+   "y": 1,
+   "w": 16,
+   "h": 21,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_pearl_wobble_0": {
+   "x": 479,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5625,
+   "ay": 1
+  },
+  "capsule_pearl_wobble_1": {
+   "x": 496,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.4375,
+   "ay": 1
+  },
+  "capsule_rare": {
+   "x": 513,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_silver_burst_0": {
+   "x": 214,
+   "y": 1,
+   "w": 26,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.0345
+  },
+  "capsule_silver_burst_1": {
+   "x": 100,
+   "y": 1,
+   "w": 32,
+   "h": 29,
+   "ax": 0.5,
+   "ay": 1.0345
+  },
+  "capsule_silver_crack_0": {
+   "x": 530,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_silver_crack_1": {
+   "x": 292,
+   "y": 1,
+   "w": 16,
+   "h": 21,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "capsule_silver_wobble_0": {
+   "x": 547,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.5625,
+   "ay": 1
+  },
+  "capsule_silver_wobble_1": {
+   "x": 564,
+   "y": 1,
+   "w": 16,
+   "h": 20,
+   "ax": 0.4375,
+   "ay": 1
+  }
+ },
+ "anims": {}
+}

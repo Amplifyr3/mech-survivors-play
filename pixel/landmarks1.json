@@ -1,0 +1,692 @@
+{
+ "group": "landmarks1",
+ "image": "landmarks1.png",
+ "size": {
+  "w": 1009,
+  "h": 308
+ },
+ "frames": {
+  "gnd_rim_drop": {
+   "x": 227,
+   "y": 232,
+   "w": 32,
+   "h": 3,
+   "ax": 0,
+   "ay": 0
+  },
+  "gnd_rim_light": {
+   "x": 260,
+   "y": 232,
+   "w": 32,
+   "h": 2,
+   "ax": 0,
+   "ay": 0
+  },
+  "lm1_crane_empty_0": {
+   "x": 394,
+   "y": 1,
+   "w": 92,
+   "h": 97,
+   "ax": 0.5109,
+   "ay": 1
+  },
+  "lm1_crane_netted_0": {
+   "x": 202,
+   "y": 1,
+   "w": 95,
+   "h": 97,
+   "ax": 0.4947,
+   "ay": 1
+  },
+  "lm1_crane_netted_1": {
+   "x": 298,
+   "y": 1,
+   "w": 95,
+   "h": 97,
+   "ax": 0.4947,
+   "ay": 1
+  },
+  "lm1_giant_sleep_0": {
+   "x": 804,
+   "y": 1,
+   "w": 204,
+   "h": 79,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_giant_sleep_1": {
+   "x": 1,
+   "y": 152,
+   "w": 204,
+   "h": 79,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_granary_idle_0": {
+   "x": 487,
+   "y": 1,
+   "w": 76,
+   "h": 88,
+   "ax": 0.5132,
+   "ay": 1
+  },
+  "lm1_great_lantern_drained_0": {
+   "x": 1,
+   "y": 1,
+   "w": 66,
+   "h": 150,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_great_lantern_lit_0": {
+   "x": 68,
+   "y": 1,
+   "w": 66,
+   "h": 150,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_great_lantern_lit_1": {
+   "x": 135,
+   "y": 1,
+   "w": 66,
+   "h": 150,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_stage_dim_0": {
+   "x": 564,
+   "y": 1,
+   "w": 79,
+   "h": 82,
+   "ax": 0.481,
+   "ay": 1
+  },
+  "lm1_stage_lit_0": {
+   "x": 644,
+   "y": 1,
+   "w": 79,
+   "h": 82,
+   "ax": 0.481,
+   "ay": 1
+  },
+  "lm1_stage_lit_1": {
+   "x": 724,
+   "y": 1,
+   "w": 79,
+   "h": 82,
+   "ax": 0.481,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_0": {
+   "x": 206,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_1": {
+   "x": 319,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_2": {
+   "x": 432,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_glowing_3": {
+   "x": 545,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_still_0": {
+   "x": 658,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_0": {
+   "x": 771,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_1": {
+   "x": 884,
+   "y": 152,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_2": {
+   "x": 1,
+   "y": 232,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  },
+  "lm1_water_wheel_turning_3": {
+   "x": 114,
+   "y": 232,
+   "w": 112,
+   "h": 75,
+   "ax": 0.5,
+   "ay": 1
+  }
+ },
+ "anims": {
+  "lm1_great_lantern_lit": {
+   "frames": [
+    "lm1_great_lantern_lit_0",
+    "lm1_great_lantern_lit_1"
+   ],
+   "fps": 3,
+   "loop": true
+  },
+  "lm1_great_lantern_drained": {
+   "frames": [
+    "lm1_great_lantern_drained_0"
+   ],
+   "fps": 3,
+   "loop": true
+  },
+  "lm1_crane_empty": {
+   "frames": [
+    "lm1_crane_empty_0"
+   ],
+   "fps": 2,
+   "loop": true
+  },
+  "lm1_crane_netted": {
+   "frames": [
+    "lm1_crane_netted_0",
+    "lm1_crane_netted_1"
+   ],
+   "fps": 2,
+   "loop": true
+  },
+  "lm1_giant_sleep": {
+   "frames": [
+    "lm1_giant_sleep_0",
+    "lm1_giant_sleep_1"
+   ],
+   "fps": 1,
+   "loop": true
+  },
+  "lm1_water_wheel_still": {
+   "frames": [
+    "lm1_water_wheel_still_0"
+   ],
+   "fps": 8,
+   "loop": true
+  },
+  "lm1_water_wheel_turning": {
+   "frames": [
+    "lm1_water_wheel_turning_0",
+    "lm1_water_wheel_turning_1",
+    "lm1_water_wheel_turning_2",
+    "lm1_water_wheel_turning_3"
+   ],
+   "fps": 8,
+   "loop": true
+  },
+  "lm1_water_wheel_glowing": {
+   "frames": [
+    "lm1_water_wheel_glowing_0",
+    "lm1_water_wheel_glowing_1",
+    "lm1_water_wheel_glowing_2",
+    "lm1_water_wheel_glowing_3"
+   ],
+   "fps": 8,
+   "loop": true
+  },
+  "lm1_granary_idle": {
+   "frames": [
+    "lm1_granary_idle_0"
+   ],
+   "fps": 1,
+   "loop": true
+  },
+  "lm1_stage_lit": {
+   "frames": [
+    "lm1_stage_lit_0",
+    "lm1_stage_lit_1"
+   ],
+   "fps": 2,
+   "loop": true
+  },
+  "lm1_stage_dim": {
+   "frames": [
+    "lm1_stage_dim_0"
+   ],
+   "fps": 2,
+   "loop": true
+  }
+ },
+ "lights": {
+  "lm1_great_lantern_lit_0": [
+   {
+    "x": 0,
+    "y": -126,
+    "r": 90,
+    "color": "#ffe68a",
+    "intensity": 1
+   },
+   {
+    "x": -19,
+    "y": -100,
+    "r": 18,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": 19,
+    "y": -100,
+    "r": 18,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": 0,
+    "y": -85,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.4
+   },
+   {
+    "x": 0,
+    "y": -67,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.4
+   },
+   {
+    "x": -16,
+    "y": -34,
+    "r": 14,
+    "color": "#ffe68a",
+    "intensity": 0.5
+   },
+   {
+    "x": 16,
+    "y": -34,
+    "r": 14,
+    "color": "#ffe68a",
+    "intensity": 0.5
+   }
+  ],
+  "lm1_great_lantern_lit_1": [
+   {
+    "x": 0,
+    "y": -126,
+    "r": 90,
+    "color": "#ffe68a",
+    "intensity": 1
+   },
+   {
+    "x": -19,
+    "y": -100,
+    "r": 18,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": 19,
+    "y": -100,
+    "r": 18,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": 0,
+    "y": -85,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.4
+   },
+   {
+    "x": 0,
+    "y": -67,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.4
+   },
+   {
+    "x": -16,
+    "y": -34,
+    "r": 14,
+    "color": "#ffe68a",
+    "intensity": 0.5
+   },
+   {
+    "x": 16,
+    "y": -34,
+    "r": 14,
+    "color": "#ffe68a",
+    "intensity": 0.5
+   }
+  ],
+  "lm1_great_lantern_drained_0": [
+   {
+    "x": -6,
+    "y": -130,
+    "r": 20,
+    "color": "#ff5fa2",
+    "intensity": 0.35
+   },
+   {
+    "x": 6,
+    "y": -80,
+    "r": 16,
+    "color": "#ff5fa2",
+    "intensity": 0.3
+   }
+  ],
+  "lm1_crane_empty_0": [
+   {
+    "x": -11,
+    "y": -74,
+    "r": 16,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": -39,
+    "y": -72,
+    "r": 22,
+    "color": "#ffe68a",
+    "intensity": 0.8
+   }
+  ],
+  "lm1_crane_netted_0": [
+   {
+    "x": -11,
+    "y": -74,
+    "r": 16,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": -39,
+    "y": -72,
+    "r": 22,
+    "color": "#ffe68a",
+    "intensity": 0.8
+   },
+   {
+    "x": 41,
+    "y": -38,
+    "r": 14,
+    "color": "#ff5fa2",
+    "intensity": 0.35
+   }
+  ],
+  "lm1_crane_netted_1": [
+   {
+    "x": -11,
+    "y": -74,
+    "r": 16,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": -39,
+    "y": -72,
+    "r": 22,
+    "color": "#ffe68a",
+    "intensity": 0.8
+   },
+   {
+    "x": 42,
+    "y": -38,
+    "r": 14,
+    "color": "#ff5fa2",
+    "intensity": 0.35
+   }
+  ],
+  "lm1_giant_sleep_0": [
+   {
+    "x": -14,
+    "y": -69,
+    "r": 20,
+    "color": "#ffe68a",
+    "intensity": 0.7
+   },
+   {
+    "x": 25,
+    "y": -69,
+    "r": 20,
+    "color": "#ffe68a",
+    "intensity": 0.7
+   },
+   {
+    "x": -99,
+    "y": -24,
+    "r": 18,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": -78,
+    "y": -33,
+    "r": 10,
+    "color": "#ffe68a",
+    "intensity": 0.25
+   },
+   {
+    "x": 6,
+    "y": -46,
+    "r": 14,
+    "color": "#ff5fa2",
+    "intensity": 0.3
+   }
+  ],
+  "lm1_giant_sleep_1": [
+   {
+    "x": -14,
+    "y": -69,
+    "r": 20,
+    "color": "#ffe68a",
+    "intensity": 0.7
+   },
+   {
+    "x": 25,
+    "y": -69,
+    "r": 20,
+    "color": "#ffe68a",
+    "intensity": 0.7
+   },
+   {
+    "x": -99,
+    "y": -24,
+    "r": 18,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": -78,
+    "y": -33,
+    "r": 10,
+    "color": "#ffe68a",
+    "intensity": 0.5
+   },
+   {
+    "x": 6,
+    "y": -46,
+    "r": 14,
+    "color": "#ff5fa2",
+    "intensity": 0.3
+   }
+  ],
+  "lm1_water_wheel_still_0": [],
+  "lm1_water_wheel_turning_0": [],
+  "lm1_water_wheel_turning_1": [],
+  "lm1_water_wheel_turning_2": [],
+  "lm1_water_wheel_turning_3": [],
+  "lm1_water_wheel_glowing_0": [
+   {
+    "x": 18,
+    "y": -36,
+    "r": 50,
+    "color": "#ffe68a",
+    "intensity": 1
+   },
+   {
+    "x": -43,
+    "y": -31,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": -23,
+    "y": -31,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   }
+  ],
+  "lm1_water_wheel_glowing_1": [
+   {
+    "x": 18,
+    "y": -36,
+    "r": 50,
+    "color": "#ffe68a",
+    "intensity": 1
+   },
+   {
+    "x": -43,
+    "y": -31,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": -23,
+    "y": -31,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   }
+  ],
+  "lm1_water_wheel_glowing_2": [
+   {
+    "x": 18,
+    "y": -36,
+    "r": 50,
+    "color": "#ffe68a",
+    "intensity": 1
+   },
+   {
+    "x": -43,
+    "y": -31,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": -23,
+    "y": -31,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   }
+  ],
+  "lm1_water_wheel_glowing_3": [
+   {
+    "x": 18,
+    "y": -36,
+    "r": 50,
+    "color": "#ffe68a",
+    "intensity": 1
+   },
+   {
+    "x": -43,
+    "y": -31,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": -23,
+    "y": -31,
+    "r": 12,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   }
+  ],
+  "lm1_granary_idle_0": [
+   {
+    "x": -2,
+    "y": -41,
+    "r": 16,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   }
+  ],
+  "lm1_stage_lit_0": [
+   {
+    "x": 0,
+    "y": -74,
+    "r": 30,
+    "color": "#ffe68a",
+    "intensity": 0.9
+   },
+   {
+    "x": -16,
+    "y": -53,
+    "r": 22,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": 16,
+    "y": -53,
+    "r": 22,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   }
+  ],
+  "lm1_stage_lit_1": [
+   {
+    "x": 0,
+    "y": -74,
+    "r": 30,
+    "color": "#ffe68a",
+    "intensity": 0.9
+   },
+   {
+    "x": -16,
+    "y": -53,
+    "r": 22,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   },
+   {
+    "x": 16,
+    "y": -53,
+    "r": 22,
+    "color": "#ffe68a",
+    "intensity": 0.6
+   }
+  ],
+  "lm1_stage_dim_0": []
+ }
+}

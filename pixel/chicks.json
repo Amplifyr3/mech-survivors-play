@@ -1,0 +1,135 @@
+{
+ "group": "chicks",
+ "image": "chicks.png",
+ "size": {
+  "w": 146,
+  "h": 15
+ },
+ "frames": {
+  "chick_glow_0": {
+   "x": 1,
+   "y": 1,
+   "w": 13,
+   "h": 13,
+   "ax": 0.5,
+   "ay": 0.9231
+  },
+  "chick_glow_1": {
+   "x": 15,
+   "y": 1,
+   "w": 13,
+   "h": 13,
+   "ax": 0.5,
+   "ay": 0.9231
+  },
+  "chick_idle_0": {
+   "x": 29,
+   "y": 1,
+   "w": 12,
+   "h": 13,
+   "ax": 0.4583,
+   "ay": 0.9231
+  },
+  "chick_idle_1": {
+   "x": 81,
+   "y": 1,
+   "w": 12,
+   "h": 12,
+   "ax": 0.4583,
+   "ay": 0.9167
+  },
+  "chick_peck_0": {
+   "x": 94,
+   "y": 1,
+   "w": 12,
+   "h": 12,
+   "ax": 0.4583,
+   "ay": 0.9167
+  },
+  "chick_peck_1": {
+   "x": 107,
+   "y": 1,
+   "w": 12,
+   "h": 12,
+   "ax": 0.4583,
+   "ay": 0.9167
+  },
+  "chick_peck_2": {
+   "x": 42,
+   "y": 1,
+   "w": 12,
+   "h": 13,
+   "ax": 0.4583,
+   "ay": 0.9231
+  },
+  "chick_walk_0": {
+   "x": 120,
+   "y": 1,
+   "w": 12,
+   "h": 12,
+   "ax": 0.4583,
+   "ay": 1
+  },
+  "chick_walk_1": {
+   "x": 55,
+   "y": 1,
+   "w": 12,
+   "h": 13,
+   "ax": 0.4583,
+   "ay": 0.9231
+  },
+  "chick_walk_2": {
+   "x": 133,
+   "y": 1,
+   "w": 12,
+   "h": 12,
+   "ax": 0.4583,
+   "ay": 1
+  },
+  "chick_walk_3": {
+   "x": 68,
+   "y": 1,
+   "w": 12,
+   "h": 13,
+   "ax": 0.4583,
+   "ay": 0.9231
+  }
+ },
+ "anims": {
+  "chick_idle": {
+   "frames": [
+    "chick_idle_0",
+    "chick_idle_1"
+   ],
+   "fps": 3,
+   "loop": true
+  },
+  "chick_walk": {
+   "frames": [
+    "chick_walk_0",
+    "chick_walk_1",
+    "chick_walk_2",
+    "chick_walk_3"
+   ],
+   "fps": 10,
+   "loop": true
+  },
+  "chick_peck": {
+   "frames": [
+    "chick_peck_0",
+    "chick_peck_1",
+    "chick_peck_2"
+   ],
+   "fps": 8,
+   "loop": false
+  },
+  "chick_glow": {
+   "frames": [
+    "chick_glow_0",
+    "chick_glow_1"
+   ],
+   "fps": 6,
+   "loop": true
+  }
+ }
+}
