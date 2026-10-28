@@ -1,0 +1,545 @@
+{
+ "frames": {
+  "art_bulldog_drive_0": {
+   "ax": 0.5,
+   "ay": 1.0,
+   "h": 28,
+   "markers": {
+    "exhaust": [
+     -14,
+     -27
+    ]
+   },
+   "w": 59,
+   "x": 655,
+   "y": 1
+  },
+  "art_bulldog_drive_1": {
+   "ax": 0.5,
+   "ay": 1.0,
+   "h": 28,
+   "w": 58,
+   "x": 715,
+   "y": 1
+  },
+  "art_bulldog_drive_2": {
+   "ax": 0.5,
+   "ay": 0.9719,
+   "h": 29,
+   "w": 58,
+   "x": 596,
+   "y": 1
+  },
+  "art_bulldog_drive_3": {
+   "ax": 0.5,
+   "ay": 0.9709,
+   "h": 28,
+   "w": 59,
+   "x": 774,
+   "y": 1
+  },
+  "art_bulldog_hit_0": {
+   "ax": 0.5,
+   "ay": 0.9886,
+   "h": 44,
+   "w": 37,
+   "x": 349,
+   "y": 1
+  },
+  "art_bulldog_hit_1": {
+   "ax": 0.5,
+   "ay": 0.9881,
+   "h": 42,
+   "w": 39,
+   "x": 430,
+   "y": 1
+  },
+  "art_bulldog_idle_0": {
+   "ax": 0.5,
+   "ay": 1.0,
+   "h": 50,
+   "markers": {
+    "back": [
+     -6,
+     -48
+    ],
+    "hand": [
+     9,
+     -24
+    ],
+    "shoulderL": [
+     -5,
+     -41
+    ],
+    "shoulderR": [
+     12,
+     -40
+    ]
+   },
+   "w": 33,
+   "x": 69,
+   "y": 1
+  },
+  "art_bulldog_idle_1": {
+   "ax": 0.5,
+   "ay": 0.9861,
+   "h": 51,
+   "markers": {
+    "back": [
+     -6,
+     -48
+    ],
+    "hand": [
+     9,
+     -24
+    ],
+    "shoulderL": [
+     -5,
+     -41
+    ],
+    "shoulderR": [
+     12,
+     -40
+    ]
+   },
+   "w": 33,
+   "x": 1,
+   "y": 1
+  },
+  "art_bulldog_idle_2": {
+   "ax": 0.5,
+   "ay": 0.9861,
+   "h": 51,
+   "markers": {
+    "back": [
+     -6,
+     -48
+    ],
+    "hand": [
+     9,
+     -24
+    ],
+    "shoulderL": [
+     -5,
+     -41
+    ],
+    "shoulderR": [
+     12,
+     -40
+    ]
+   },
+   "w": 33,
+   "x": 35,
+   "y": 1
+  },
+  "art_bulldog_idle_3": {
+   "ax": 0.5,
+   "ay": 0.9858,
+   "h": 50,
+   "markers": {
+    "back": [
+     -6,
+     -48
+    ],
+    "hand": [
+     9,
+     -24
+    ],
+    "shoulderL": [
+     -5,
+     -41
+    ],
+    "shoulderR": [
+     12,
+     -40
+    ]
+   },
+   "w": 33,
+   "x": 103,
+   "y": 1
+  },
+  "art_bulldog_morph_0": {
+   "ax": 0.5,
+   "ay": 0.9839,
+   "h": 44,
+   "w": 42,
+   "x": 387,
+   "y": 1
+  },
+  "art_bulldog_morph_1": {
+   "ax": 0.5,
+   "ay": 0.9818,
+   "h": 39,
+   "w": 59,
+   "x": 470,
+   "y": 1
+  },
+  "art_bulldog_morph_2": {
+   "ax": 0.5,
+   "ay": 0.9763,
+   "h": 30,
+   "w": 65,
+   "x": 530,
+   "y": 1
+  },
+  "art_bulldog_walk_0": {
+   "ax": 0.5,
+   "ay": 1.0,
+   "h": 48,
+   "markers": {
+    "back": [
+     -1,
+     -47
+    ],
+    "hand": [
+     14,
+     -23
+    ],
+    "shoulderL": [
+     0,
+     -40
+    ],
+    "shoulderR": [
+     17,
+     -39
+    ]
+   },
+   "w": 41,
+   "x": 170,
+   "y": 1
+  },
+  "art_bulldog_walk_1": {
+   "ax": 0.5,
+   "ay": 1.0,
+   "h": 48,
+   "markers": {
+    "back": [
+     -3,
+     -46
+    ],
+    "hand": [
+     12,
+     -22
+    ],
+    "shoulderL": [
+     -2,
+     -39
+    ],
+    "shoulderR": [
+     15,
+     -38
+    ]
+   },
+   "w": 31,
+   "x": 212,
+   "y": 1
+  },
+  "art_bulldog_walk_2": {
+   "ax": 0.5,
+   "ay": 1.0,
+   "h": 47,
+   "markers": {
+    "back": [
+     -2,
+     -46
+    ],
+    "hand": [
+     13,
+     -22
+    ],
+    "shoulderL": [
+     -1,
+     -39
+    ],
+    "shoulderR": [
+     16,
+     -38
+    ]
+   },
+   "w": 33,
+   "x": 315,
+   "y": 1
+  },
+  "art_bulldog_walk_3": {
+   "ax": 0.5,
+   "ay": 1.0,
+   "h": 48,
+   "markers": {
+    "back": [
+     -4,
+     -46
+    ],
+    "hand": [
+     11,
+     -22
+    ],
+    "shoulderL": [
+     -3,
+     -39
+    ],
+    "shoulderR": [
+     14,
+     -38
+    ]
+   },
+   "w": 29,
+   "x": 244,
+   "y": 1
+  },
+  "art_bulldog_walk_4": {
+   "ax": 0.5,
+   "ay": 1.0,
+   "h": 48,
+   "markers": {
+    "back": [
+     -1,
+     -46
+    ],
+    "hand": [
+     14,
+     -22
+    ],
+    "shoulderL": [
+     0,
+     -39
+    ],
+    "shoulderR": [
+     17,
+     -38
+    ]
+   },
+   "w": 40,
+   "x": 274,
+   "y": 1
+  },
+  "art_bulldog_walk_5": {
+   "ax": 0.5,
+   "ay": 1.0,
+   "h": 49,
+   "markers": {
+    "back": [
+     -4,
+     -48
+    ],
+    "hand": [
+     11,
+     -24
+    ],
+    "shoulderL": [
+     -3,
+     -41
+    ],
+    "shoulderR": [
+     14,
+     -40
+    ]
+   },
+   "w": 32,
+   "x": 137,
+   "y": 1
+  },
+  "wpn_rivetScatter_fire_0": {
+   "ax": 0.2787,
+   "ay": 0.7095,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     23,
+     -5
+    ]
+   },
+   "w": 31,
+   "x": 981,
+   "y": 1
+  },
+  "wpn_rivetScatter_fire_1": {
+   "ax": 0.2787,
+   "ay": 0.7095,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     23,
+     -5
+    ]
+   },
+   "w": 31,
+   "x": 1,
+   "y": 53
+  },
+  "wpn_rivetScatter_fire_2": {
+   "ax": 0.2787,
+   "ay": 0.7095,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     23,
+     -5
+    ]
+   },
+   "w": 31,
+   "x": 33,
+   "y": 53
+  },
+  "wpn_rivetScatter_idle_0": {
+   "ax": 0.27,
+   "ay": 0.7095,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     23,
+     -5
+    ]
+   },
+   "w": 32,
+   "x": 65,
+   "y": 53
+  },
+  "wpn_rivetScatter_reload_0": {
+   "ax": 0.2787,
+   "ay": 0.5843,
+   "h": 17,
+   "markers": {
+    "muzzle": [
+     23,
+     -5
+    ]
+   },
+   "w": 31,
+   "x": 897,
+   "y": 1
+  },
+  "wpn_rivetScatter_reload_1": {
+   "ax": 0.2787,
+   "ay": 0.764,
+   "h": 13,
+   "markers": {
+    "muzzle": [
+     23,
+     -5
+    ]
+   },
+   "w": 31,
+   "x": 154,
+   "y": 53
+  },
+  "wpn_rivetScatter_reload_2": {
+   "ax": 0.2787,
+   "ay": 0.7955,
+   "h": 15,
+   "markers": {
+    "muzzle": [
+     23,
+     -5
+    ]
+   },
+   "w": 31,
+   "x": 949,
+   "y": 1
+  },
+  "wpn_rocketPods_fire_0": {
+   "ax": 0.3117,
+   "ay": 0.8912,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     7,
+     -7
+    ]
+   },
+   "w": 19,
+   "x": 834,
+   "y": 1
+  },
+  "wpn_rocketPods_fire_1": {
+   "ax": 0.3117,
+   "ay": 0.8848,
+   "h": 17,
+   "markers": {
+    "muzzle": [
+     7,
+     -7
+    ]
+   },
+   "w": 19,
+   "x": 929,
+   "y": 1
+  },
+  "wpn_rocketPods_fire_2": {
+   "ax": 0.4056,
+   "ay": 0.8912,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     7,
+     -7
+    ]
+   },
+   "w": 22,
+   "x": 854,
+   "y": 1
+  },
+  "wpn_rocketPods_idle_0": {
+   "ax": 0.3484,
+   "ay": 0.8601,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     7,
+     -7
+    ]
+   },
+   "w": 17,
+   "x": 98,
+   "y": 53
+  },
+  "wpn_rocketPods_reload_0": {
+   "ax": 0.3117,
+   "ay": 0.8912,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     7,
+     -7
+    ]
+   },
+   "w": 19,
+   "x": 877,
+   "y": 1
+  },
+  "wpn_rocketPods_reload_1": {
+   "ax": 0.3117,
+   "ay": 0.8601,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     7,
+     -7
+    ]
+   },
+   "w": 19,
+   "x": 116,
+   "y": 53
+  },
+  "wpn_rocketPods_reload_2": {
+   "ax": 0.3484,
+   "ay": 0.8601,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     7,
+     -7
+    ]
+   },
+   "w": 17,
+   "x": 136,
+   "y": 53
+  }
+ },
+ "group": "v4bulldog",
+ "image": "v4bulldog.png",
+ "replace": true,
+ "size": [
+  1024,
+  128
+ ]
+}
