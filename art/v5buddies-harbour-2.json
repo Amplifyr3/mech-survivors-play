@@ -1,0 +1,106 @@
+{
+ "frames": {
+  "bud_knightHop_hop_0": {
+   "ax": 0.5,
+   "ay": 0.9589,
+   "h": 21,
+   "w": 24,
+   "x": 122,
+   "y": 1
+  },
+  "bud_knightHop_hop_1": {
+   "ax": 0.5,
+   "ay": 0.8965,
+   "h": 18,
+   "w": 25,
+   "x": 173,
+   "y": 1
+  },
+  "bud_knightHop_hop_2": {
+   "ax": 0.5,
+   "ay": 1.089,
+   "h": 24,
+   "w": 22,
+   "x": 1,
+   "y": 1
+  },
+  "bud_knightHop_hop_3": {
+   "ax": 0.5,
+   "ay": 0.9068,
+   "h": 20,
+   "w": 25,
+   "x": 147,
+   "y": 1
+  },
+  "bud_knightMoth_hop_0": {
+   "ax": 0.5,
+   "ay": 0.9584,
+   "h": 23,
+   "w": 23,
+   "x": 73,
+   "y": 1
+  },
+  "bud_knightMoth_hop_1": {
+   "ax": 0.5,
+   "ay": 0.9111,
+   "h": 22,
+   "w": 24,
+   "x": 97,
+   "y": 1
+  },
+  "bud_knightMoth_hop_2": {
+   "ax": 0.5,
+   "ay": 1.1268,
+   "h": 24,
+   "w": 24,
+   "x": 24,
+   "y": 1
+  },
+  "bud_knightMoth_hop_3": {
+   "ax": 0.5,
+   "ay": 0.9185,
+   "h": 24,
+   "w": 23,
+   "x": 49,
+   "y": 1
+  },
+  "bud_queenMunch_hop_0": {
+   "ax": 0.5,
+   "ay": 0.9091,
+   "h": 17,
+   "w": 26,
+   "x": 225,
+   "y": 1
+  },
+  "bud_queenMunch_hop_1": {
+   "ax": 0.5,
+   "ay": 0.8896,
+   "h": 14,
+   "w": 26,
+   "x": 280,
+   "y": 1
+  },
+  "bud_queenMunch_hop_2": {
+   "ax": 0.5,
+   "ay": 1.1363,
+   "h": 18,
+   "w": 25,
+   "x": 199,
+   "y": 1
+  },
+  "bud_queenMunch_hop_3": {
+   "ax": 0.5,
+   "ay": 0.9091,
+   "h": 17,
+   "w": 27,
+   "x": 252,
+   "y": 1
+  }
+ },
+ "group": "v5buddies-harbour-2",
+ "image": "v5buddies-harbour-2.png",
+ "size": [
+  512,
+  32
+ ]
+}
