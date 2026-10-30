@@ -1,0 +1,67 @@
+{
+ "frames": {
+  "wpn_sunLance_idle_0": {
+   "ax": 0.1063,
+   "ay": 0.6831,
+   "h": 10,
+   "markers": {
+    "muzzle": [
+     29,
+     0
+    ]
+   },
+   "w": 34,
+   "x": 98,
+   "y": 1
+  },
+  "wpn_sunLance_reload_0": {
+   "ax": 0.0205,
+   "ay": 0.5634,
+   "h": 21,
+   "markers": {
+    "muzzle": [
+     29,
+     0
+    ]
+   },
+   "w": 30,
+   "x": 1,
+   "y": 1
+  },
+  "wpn_sunLance_reload_1": {
+   "ax": 0.0521,
+   "ay": 0.5783,
+   "h": 17,
+   "markers": {
+    "muzzle": [
+     29,
+     0
+    ]
+   },
+   "w": 31,
+   "x": 32,
+   "y": 1
+  },
+  "wpn_sunLance_reload_2": {
+   "ax": 0.0792,
+   "ay": 0.621,
+   "h": 11,
+   "markers": {
+    "muzzle": [
+     29,
+     0
+    ]
+   },
+   "w": 33,
+   "x": 64,
+   "y": 1
+  }
+ },
+ "group": "v5sunlance",
+ "image": "v5sunlance.png",
+ "replace": true,
+ "size": [
+  512,
+  32
+ ]
+}

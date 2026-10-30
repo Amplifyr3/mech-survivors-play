@@ -1,0 +1,109 @@
+{
+ "frames": {
+  "wpn_twinStingers_fire_0": {
+   "ax": 0.1372,
+   "ay": 0.9575,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     23,
+     -12
+    ]
+   },
+   "w": 27,
+   "x": 85,
+   "y": 1
+  },
+  "wpn_twinStingers_fire_1": {
+   "ax": 0.1372,
+   "ay": 0.9575,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     23,
+     -12
+    ]
+   },
+   "w": 27,
+   "x": 113,
+   "y": 1
+  },
+  "wpn_twinStingers_fire_2": {
+   "ax": 0.1372,
+   "ay": 0.9575,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     23,
+     -12
+    ]
+   },
+   "w": 27,
+   "x": 141,
+   "y": 1
+  },
+  "wpn_twinStingers_idle_0": {
+   "ax": 0.1372,
+   "ay": 0.9071,
+   "h": 19,
+   "markers": {
+    "muzzle": [
+     23,
+     -12
+    ]
+   },
+   "w": 27,
+   "x": 57,
+   "y": 1
+  },
+  "wpn_twinStingers_reload_0": {
+   "ax": 0.1372,
+   "ay": 0.6383,
+   "h": 27,
+   "markers": {
+    "muzzle": [
+     23,
+     -12
+    ]
+   },
+   "w": 27,
+   "x": 1,
+   "y": 1
+  },
+  "wpn_twinStingers_reload_1": {
+   "ax": 0.1372,
+   "ay": 0.7834,
+   "h": 22,
+   "markers": {
+    "muzzle": [
+     23,
+     -12
+    ]
+   },
+   "w": 27,
+   "x": 29,
+   "y": 1
+  },
+  "wpn_twinStingers_reload_2": {
+   "ax": 0.1372,
+   "ay": 0.9575,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     23,
+     -12
+    ]
+   },
+   "w": 27,
+   "x": 169,
+   "y": 1
+  }
+ },
+ "group": "v5stingers",
+ "image": "v5stingers.png",
+ "replace": true,
+ "size": [
+  512,
+  32
+ ]
+}

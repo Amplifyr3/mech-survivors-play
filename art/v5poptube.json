@@ -1,0 +1,109 @@
+{
+ "frames": {
+  "wpn_popTube_fire_0": {
+   "ax": 0.1699,
+   "ay": 0.9378,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     27,
+     -11
+    ]
+   },
+   "w": 29,
+   "x": 31,
+   "y": 1
+  },
+  "wpn_popTube_fire_1": {
+   "ax": 0.1852,
+   "ay": 0.9378,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     27,
+     -11
+    ]
+   },
+   "w": 32,
+   "x": 61,
+   "y": 1
+  },
+  "wpn_popTube_fire_2": {
+   "ax": 0.1699,
+   "ay": 0.9378,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     27,
+     -11
+    ]
+   },
+   "w": 29,
+   "x": 94,
+   "y": 1
+  },
+  "wpn_popTube_idle_0": {
+   "ax": 0.1699,
+   "ay": 0.993,
+   "h": 17,
+   "markers": {
+    "muzzle": [
+     27,
+     -11
+    ]
+   },
+   "w": 29,
+   "x": 186,
+   "y": 1
+  },
+  "wpn_popTube_reload_0": {
+   "ax": 0.1976,
+   "ay": 0.9378,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     27,
+     -11
+    ]
+   },
+   "w": 30,
+   "x": 124,
+   "y": 1
+  },
+  "wpn_popTube_reload_1": {
+   "ax": 0.1699,
+   "ay": 0.6493,
+   "h": 26,
+   "markers": {
+    "muzzle": [
+     27,
+     -11
+    ]
+   },
+   "w": 29,
+   "x": 1,
+   "y": 1
+  },
+  "wpn_popTube_reload_2": {
+   "ax": 0.1976,
+   "ay": 0.9378,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     27,
+     -11
+    ]
+   },
+   "w": 30,
+   "x": 155,
+   "y": 1
+  }
+ },
+ "group": "v5poptube",
+ "image": "v5poptube.png",
+ "replace": true,
+ "size": [
+  512,
+  32
+ ]
+}

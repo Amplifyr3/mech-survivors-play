@@ -1,0 +1,95 @@
+{
+ "frames": {
+  "wpn_longHand_fire_0": {
+   "ax": 0.272,
+   "ay": 0.8865,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     24,
+     -6
+    ]
+   },
+   "w": 34,
+   "x": 39,
+   "y": 1
+  },
+  "wpn_longHand_fire_1": {
+   "ax": 0.2802,
+   "ay": 0.8865,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     24,
+     -6
+    ]
+   },
+   "w": 33,
+   "x": 74,
+   "y": 1
+  },
+  "wpn_longHand_idle_0": {
+   "ax": 0.2802,
+   "ay": 0.8865,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     24,
+     -6
+    ]
+   },
+   "w": 33,
+   "x": 108,
+   "y": 1
+  },
+  "wpn_longHand_reload_0": {
+   "ax": 0.272,
+   "ay": 0.8865,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     24,
+     -6
+    ]
+   },
+   "w": 34,
+   "x": 142,
+   "y": 1
+  },
+  "wpn_longHand_reload_1": {
+   "ax": 0.2499,
+   "ay": 0.9164,
+   "h": 19,
+   "markers": {
+    "muzzle": [
+     24,
+     -6
+    ]
+   },
+   "w": 37,
+   "x": 1,
+   "y": 1
+  },
+  "wpn_longHand_reload_2": {
+   "ax": 0.272,
+   "ay": 0.8865,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     24,
+     -6
+    ]
+   },
+   "w": 34,
+   "x": 177,
+   "y": 1
+  }
+ },
+ "group": "v5longhand",
+ "image": "v5longhand.png",
+ "replace": true,
+ "size": [
+  512,
+  32
+ ]
+}

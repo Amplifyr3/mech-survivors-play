@@ -1,0 +1,109 @@
+{
+ "frames": {
+  "wpn_moonBlade_fire_0": {
+   "ax": 0.0836,
+   "ay": 0.4646,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     32,
+     0
+    ]
+   },
+   "w": 38,
+   "x": 1,
+   "y": 1
+  },
+  "wpn_moonBlade_fire_1": {
+   "ax": 0.0573,
+   "ay": 0.4646,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     32,
+     0
+    ]
+   },
+   "w": 38,
+   "x": 40,
+   "y": 1
+  },
+  "wpn_moonBlade_fire_2": {
+   "ax": 0.0519,
+   "ay": 0.4646,
+   "h": 14,
+   "markers": {
+    "muzzle": [
+     32,
+     0
+    ]
+   },
+   "w": 42,
+   "x": 79,
+   "y": 1
+  },
+  "wpn_moonBlade_idle_0": {
+   "ax": 0.0883,
+   "ay": 0.5004,
+   "h": 13,
+   "markers": {
+    "muzzle": [
+     32,
+     0
+    ]
+   },
+   "w": 36,
+   "x": 122,
+   "y": 1
+  },
+  "wpn_moonBlade_reload_0": {
+   "ax": 0.1513,
+   "ay": 0.5004,
+   "h": 13,
+   "markers": {
+    "muzzle": [
+     32,
+     0
+    ]
+   },
+   "w": 21,
+   "x": 159,
+   "y": 1
+  },
+  "wpn_moonBlade_reload_1": {
+   "ax": 0.0778,
+   "ay": 0.5004,
+   "h": 13,
+   "markers": {
+    "muzzle": [
+     32,
+     0
+    ]
+   },
+   "w": 28,
+   "x": 181,
+   "y": 1
+  },
+  "wpn_moonBlade_reload_2": {
+   "ax": 0.0859,
+   "ay": 0.5004,
+   "h": 13,
+   "markers": {
+    "muzzle": [
+     32,
+     0
+    ]
+   },
+   "w": 37,
+   "x": 210,
+   "y": 1
+  }
+ },
+ "group": "v5moonblade",
+ "image": "v5moonblade.png",
+ "replace": true,
+ "size": [
+  512,
+  16
+ ]
+}

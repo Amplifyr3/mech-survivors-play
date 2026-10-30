@@ -1,0 +1,95 @@
+{
+ "frames": {
+  "wpn_coinBlaster_fire_0": {
+   "ax": 0.1319,
+   "ay": 0.9434,
+   "h": 15,
+   "markers": {
+    "muzzle": [
+     22,
+     -10
+    ]
+   },
+   "w": 26,
+   "x": 106,
+   "y": 1
+  },
+  "wpn_coinBlaster_fire_1": {
+   "ax": 0.1319,
+   "ay": 0.9434,
+   "h": 15,
+   "markers": {
+    "muzzle": [
+     22,
+     -10
+    ]
+   },
+   "w": 26,
+   "x": 133,
+   "y": 1
+  },
+  "wpn_coinBlaster_idle_0": {
+   "ax": 0.127,
+   "ay": 0.8845,
+   "h": 16,
+   "markers": {
+    "muzzle": [
+     22,
+     -10
+    ]
+   },
+   "w": 27,
+   "x": 51,
+   "y": 1
+  },
+  "wpn_coinBlaster_reload_0": {
+   "ax": 0.1371,
+   "ay": 0.9596,
+   "h": 21,
+   "markers": {
+    "muzzle": [
+     22,
+     -10
+    ]
+   },
+   "w": 25,
+   "x": 25,
+   "y": 1
+  },
+  "wpn_coinBlaster_reload_1": {
+   "ax": 0.149,
+   "ay": 0.916,
+   "h": 22,
+   "markers": {
+    "muzzle": [
+     22,
+     -10
+    ]
+   },
+   "w": 23,
+   "x": 1,
+   "y": 1
+  },
+  "wpn_coinBlaster_reload_2": {
+   "ax": 0.1319,
+   "ay": 0.8845,
+   "h": 16,
+   "markers": {
+    "muzzle": [
+     22,
+     -10
+    ]
+   },
+   "w": 26,
+   "x": 79,
+   "y": 1
+  }
+ },
+ "group": "v5coinblaster",
+ "image": "v5coinblaster.png",
+ "replace": true,
+ "size": [
+  512,
+  32
+ ]
+}

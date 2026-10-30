@@ -1,0 +1,95 @@
+{
+ "frames": {
+  "wpn_arcCoil_fire_0": {
+   "ax": 0.5744,
+   "ay": 0.5249,
+   "h": 12,
+   "markers": {
+    "muzzle": [
+     12,
+     -1
+    ]
+   },
+   "w": 27,
+   "x": 120,
+   "y": 1
+  },
+  "wpn_arcCoil_fire_1": {
+   "ax": 0.5374,
+   "ay": 0.5249,
+   "h": 12,
+   "markers": {
+    "muzzle": [
+     12,
+     -1
+    ]
+   },
+   "w": 27,
+   "x": 148,
+   "y": 1
+  },
+  "wpn_arcCoil_idle_0": {
+   "ax": 0.5503,
+   "ay": 0.5614,
+   "h": 13,
+   "markers": {
+    "muzzle": [
+     12,
+     -1
+    ]
+   },
+   "w": 30,
+   "x": 31,
+   "y": 1
+  },
+  "wpn_arcCoil_reload_0": {
+   "ax": 0.5539,
+   "ay": 0.6383,
+   "h": 13,
+   "markers": {
+    "muzzle": [
+     12,
+     -1
+    ]
+   },
+   "w": 28,
+   "x": 62,
+   "y": 1
+  },
+  "wpn_arcCoil_reload_1": {
+   "ax": 0.5348,
+   "ay": 0.6832,
+   "h": 18,
+   "markers": {
+    "muzzle": [
+     12,
+     -1
+    ]
+   },
+   "w": 29,
+   "x": 1,
+   "y": 1
+  },
+  "wpn_arcCoil_reload_2": {
+   "ax": 0.5182,
+   "ay": 0.5614,
+   "h": 13,
+   "markers": {
+    "muzzle": [
+     12,
+     -1
+    ]
+   },
+   "w": 28,
+   "x": 91,
+   "y": 1
+  }
+ },
+ "group": "v5arccoil",
+ "image": "v5arccoil.png",
+ "replace": true,
+ "size": [
+  512,
+  32
+ ]
+}
