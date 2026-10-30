@@ -1,0 +1,170 @@
+{
+ "frames": {
+  "capsule_common": {
+   "ax": 0.5,
+   "ay": 0.9211,
+   "h": 19,
+   "w": 16,
+   "x": 125,
+   "y": 1
+  },
+  "capsule_common_burst": {
+   "ax": 0.4655,
+   "ay": 0.6739,
+   "h": 23,
+   "w": 29,
+   "x": 65,
+   "y": 1
+  },
+  "capsule_common_crack": {
+   "ax": 0.5,
+   "ay": 0.9167,
+   "h": 18,
+   "w": 16,
+   "x": 215,
+   "y": 1
+  },
+  "capsule_common_wobble_0": {
+   "ax": 0.5526,
+   "ay": 0.9211,
+   "h": 19,
+   "w": 19,
+   "x": 142,
+   "y": 1
+  },
+  "capsule_common_wobble_1": {
+   "ax": 0.4211,
+   "ay": 0.9062,
+   "h": 16,
+   "w": 19,
+   "x": 396,
+   "y": 1
+  },
+  "capsule_epic": {
+   "ax": 0.5,
+   "ay": 0.9167,
+   "h": 18,
+   "w": 16,
+   "x": 232,
+   "y": 1
+  },
+  "capsule_epic_burst": {
+   "ax": 0.2241,
+   "ay": 0.9348,
+   "h": 23,
+   "w": 29,
+   "x": 95,
+   "y": 1
+  },
+  "capsule_epic_crack": {
+   "ax": 0.5,
+   "ay": 0.9211,
+   "h": 19,
+   "w": 16,
+   "x": 162,
+   "y": 1
+  },
+  "capsule_epic_wobble_0": {
+   "ax": 0.5,
+   "ay": 0.9167,
+   "h": 18,
+   "w": 18,
+   "x": 249,
+   "y": 1
+  },
+  "capsule_epic_wobble_1": {
+   "ax": 0.5,
+   "ay": 0.9118,
+   "h": 17,
+   "w": 18,
+   "x": 377,
+   "y": 1
+  },
+  "capsule_legendary": {
+   "ax": 0.5,
+   "ay": 0.9211,
+   "h": 19,
+   "w": 17,
+   "x": 179,
+   "y": 1
+  },
+  "capsule_legendary_burst": {
+   "ax": 0.5161,
+   "ay": 0.7115,
+   "h": 26,
+   "w": 31,
+   "x": 33,
+   "y": 1
+  },
+  "capsule_legendary_crack": {
+   "ax": 0.5,
+   "ay": 0.9167,
+   "h": 18,
+   "w": 17,
+   "x": 268,
+   "y": 1
+  },
+  "capsule_legendary_wobble_0": {
+   "ax": 0.5526,
+   "ay": 0.9167,
+   "h": 18,
+   "w": 19,
+   "x": 286,
+   "y": 1
+  },
+  "capsule_legendary_wobble_1": {
+   "ax": 0.5,
+   "ay": 0.9167,
+   "h": 18,
+   "w": 17,
+   "x": 306,
+   "y": 1
+  },
+  "capsule_rare": {
+   "ax": 0.5,
+   "ay": 0.9167,
+   "h": 18,
+   "w": 16,
+   "x": 324,
+   "y": 1
+  },
+  "capsule_rare_burst": {
+   "ax": 0.5,
+   "ay": 0.7222,
+   "h": 27,
+   "w": 31,
+   "x": 1,
+   "y": 1
+  },
+  "capsule_rare_crack": {
+   "ax": 0.5,
+   "ay": 0.9211,
+   "h": 19,
+   "w": 17,
+   "x": 197,
+   "y": 1
+  },
+  "capsule_rare_wobble_0": {
+   "ax": 0.5,
+   "ay": 0.9167,
+   "h": 18,
+   "w": 17,
+   "x": 341,
+   "y": 1
+  },
+  "capsule_rare_wobble_1": {
+   "ax": 0.4412,
+   "ay": 0.9167,
+   "h": 18,
+   "w": 17,
+   "x": 359,
+   "y": 1
+  }
+ },
+ "group": "v5l-capsules",
+ "image": "v5l-capsules.png",
+ "size": [
+  1024,
+  32
+ ]
+}
